@@ -1,0 +1,38 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server" cache="false"></script>
+    <min_mta_version client="1.5.5" server="1.5.5"></min_mta_version>
+    
+	
+	<file src="components/Roboto.ttf"></file>
+    <file src="components/RobotoB.ttf"></file>
+	
+	
+    <file src="files/left.png"></file>
+    <file src="files/right.png"></file>
+    <file src="files/beep.mp3"></file>
+    <file src="files/notificationIcons/warning.png"></file>
+    <file src="files/notificationIcons/error.png"></file>
+    <file src="files/notificationIcons/information.png"></file>
+    <file src="files/notificationIcons/success.png"></file>
+    <file src="files/notificationIcons/no-permission.png"></file>
+    <file src="files/notificationIcons/adminduty.png"></file>
+    <file src="files/notificationIcons/twitter.png"></file>
+    <file src="files/notificationIcons/download.png"></file>
+    <file src="files/notificationIcons/speedo.png"></file>
+    <file src="files/notificationIcons/system.png"></file>
+    <file src="files/notificationIcons/pet.png"></file>
+    <file src="files/notificationIcons/buy.png"></file>
+    <file src="files/notificationIcons/network.png"></file>
+    <file src="files/sounds/e.mp3"></file>
+    <file src="files/sounds/w.mp3"></file>
+    <file src="files/sounds/i.mp3"></file>
+    <file src="files/sounds/s.mp3"></file>
+    <file src="files/sounds/s.wav"></file>
+    <file src="files/sounds/error.wav"></file>
+    <file src="files/sounds/adminduty.mp3"></file>
+    <file src="files/sounds/twitter.mp3"></file>
+    <export function="addBox" type="shared"></export>
+    <export function="updateBoxDetails" type="client"></export>
+</meta>

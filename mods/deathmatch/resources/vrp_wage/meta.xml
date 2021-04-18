@@ -1,0 +1,14 @@
+<meta>
+	<!-- 
+		@author: bekiroj 
+	-->
+    <script src="packages/async.lua" type="shared"/>
+	<!-- client -->
+	<script src="client/client.lua" type="client" cache="false"/>
+	<!-- server -->
+	<script src="server/server.lua" type="server" />
+	<!-- sounds -->
+	<file src="components/1.mp3" />
+	<file src="components/2.mp3" />
+	<file src="components/3.mp3" />
+</meta>

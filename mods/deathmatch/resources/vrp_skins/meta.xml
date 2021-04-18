@@ -1,0 +1,254 @@
+<meta>
+	<info author='bekiroj' version='1.0' name='MRP Skin Mods'/>
+	<script src="source.lua" type="client"/>
+
+	<file src="mods/fam2.txd"/>
+	<file src="mods/fam2.dff"/>
+
+	<file src="mods/wmybmx.txd"/>
+	<file src="mods/wmybmx.dff"/>
+
+	<file src="mods/tee.txd"/>
+	<file src="mods/tee.dff"/>
+
+	<file src="mods/lsv2.txd"/>
+	<file src="mods/lsv2.dff"/>
+
+	<file src="mods/omyst.txd"/>
+	<file src="mods/omyst.dff"/>
+
+	<file src="mods/vmaff1.txd"/>
+	<file src="mods/vmaff1.dff"/>
+
+	<file src="mods/mecgrl3.txd"/>
+	<file src="mods/mecgrl3.dff"/>
+
+	<file src="mods/hmyst.txd"/>
+	<file src="mods/hmyst.dff"/>
+
+	<file src="mods/kendl.txd"/>
+	<file src="mods/kendl.dff"/>
+
+	<file src="mods/swfyst.txd"/>
+	<file src="mods/swfyst.dff"/>
+
+	<file src="mods/crogrl3.txd"/>
+	<file src="mods/crogrl3.dff"/>
+
+	<file src="mods/vwmybjd.txd"/>
+	<file src="mods/vwmybjd.dff"/>
+
+	<file src="mods/andre.txd"/>
+	<file src="mods/andre.dff"/>
+
+	<file src="mods/wfyclot.txd"/>
+	<file src="mods/wfyclot.dff"/>
+
+	<file src="mods/bmycr.txd"/>
+	<file src="mods/bmycr.dff"/>
+
+	<file src="mods/drof.txd"/>
+	<file src="mods/drof.dff"/>
+
+	<file src="mods/maffa.txd"/>
+	<file src="mods/maffa.dff"/>
+
+	<file src="mods/fam3.txd"/>
+	<file src="mods/fam3.dff"/>
+
+	<file src="mods/wmydrug.txd"/>
+	<file src="mods/wmydrug.dff"/>
+
+	<file src="mods/somyst.txd"/>
+	<file src="mods/somyst.dff"/>
+
+	<file src="mods/sfa.txd"/>
+	<file src="mods/sfa.dff"/>
+
+	<file src="mods/maccer.txd"/>
+	<file src="mods/maccer.dff"/>
+
+	<file src="mods/claude.txd"/>
+	<file src="mods/claude.dff"/>
+
+	<file src="mods/harley.txd"/>
+	<file src="mods/harley.dff"/>
+
+	<file src="mods/paul.txd"/>
+	<file src="mods/paul.dff"/>
+
+	<file src="mods/hmyri.txd"/>
+	<file src="mods/hmyri.dff"/>
+
+	<file src="mods/cruz.txd"/>
+	<file src="mods/cruz.dff"/>
+
+	<file src="mods/ren.txd"/>
+	<file src="mods/ren.dff"/>
+
+	<file src="mods/bmyri.txd"/>
+	<file src="mods/bmyri.dff"/>
+
+	<file src="mods/skin.txd"/>
+	<file src="mods/skin.dff"/>
+
+	<file src="mods/dnb1.txd"/>
+	<file src="mods/dnb1.dff"/>
+
+	<file src="mods/truth.txd"/>
+	<file src="mods/truth.dff"/>
+
+	<file src="mods/wmyri.txd"/>
+	<file src="mods/wmyri.dff"/>
+
+	<file src="mods/yer.txd"/>
+	<file src="mods/yer.dff"/>
+
+	<file src="mods/bmyap.txd"/>
+	<file src="mods/bmyap.dff"/>
+
+	<file src="mods/rob.txd"/>
+	<file src="mods/rob.dff"/>
+
+	<file src="mods/bmytatt.txd"/>
+	<file src="mods/bmytatt.dff"/>
+
+	<file src="mods/vayt.txd"/>
+	<file src="mods/vayt.dff"/>
+
+	<file src="mods/sayt.txd"/>
+	<file src="mods/sayt.dff"/>
+
+	<file src="mods/dwayne.txd"/>
+	<file src="mods/dwayne.dff"/>
+
+	<file src="mods/fam1.txd"/>
+	<file src="mods/fam1.dff"/>
+
+	<file src="mods/vla3.txd"/>
+	<file src="mods/vla3.dff"/>
+
+	<file src="mods/maxpayne.txd"/>
+	<file src="mods/maxpayne.dff"/>
+
+	<file src="mods/lvpdpc.txd"/>
+	<file src="mods/lvpdpc.dff"/>
+
+	<file src="mods/irishass1.txd"/>
+	<file src="mods/irishass1.dff"/>
+
+	<file src="mods/irishass2.txd"/>
+	<file src="mods/irishass2.dff"/>
+
+	<file src="mods/wmyammo.txd"/>
+	<file src="mods/wmyammo.dff"/>
+
+	<file src="mods/grl1.txd"/>
+	<file src="mods/grl1.dff"/>
+
+	<file src="mods/grl2.txd"/>
+	<file src="mods/grl2.dff"/>
+
+	<file src="mods/grl3.txd"/>
+	<file src="mods/grl3.dff"/>
+
+	<file src="mods/grl4.txd"/>
+	<file src="mods/grl4.dff"/>
+
+	<file src="mods/grl5.txd"/>
+	<file src="mods/grl5.dff"/>
+
+	<file src="mods/grl6.txd"/>
+	<file src="mods/grl6.dff"/>
+
+	<file src="mods/man1.txd"/>
+	<file src="mods/man1.dff"/>
+
+	<file src="mods/ciplakman.txd"/>
+	<file src="mods/ciplakman.dff"/>
+
+	<file src="mods/ciplakgrl.txd"/>
+	<file src="mods/ciplakgrl.dff"/>
+
+	<file src="mods/medic1.txd"/>
+	<file src="mods/medic1.dff"/>
+
+	<file src="mods/medic2.txd"/>
+	<file src="mods/medic2.dff"/>
+
+	<file src="mods/medic3.txd"/>
+	<file src="mods/medic3.dff"/>
+
+	<file src="mods/medic4.txd"/>
+	<file src="mods/medic4.dff"/>
+
+	<file src="mods/lspd1.txd"/>
+	<file src="mods/lspd1.dff"/>
+
+	<file src="mods/lspd2.txd"/>
+	<file src="mods/lspd2.dff"/>
+
+	<file src="mods/lspd3.txd"/>
+	<file src="mods/lspd3.dff"/>
+
+	<file src="mods/lspd4.txd"/>
+	<file src="mods/lspd4.dff"/>
+
+	<file src="mods/lspd5.txd"/>
+	<file src="mods/lspd5.dff"/>
+
+	<file src="mods/lspd6.txd"/>
+	<file src="mods/lspd6.dff"/>
+
+	<file src="mods/lspd7.txd"/>
+	<file src="mods/lspd7.dff"/>
+
+	<file src="mods/lspd8.txd"/>
+	<file src="mods/lspd8.dff"/>
+
+	<file src="mods/lspd9.txd"/>
+	<file src="mods/lspd9.dff"/>
+
+	<file src="mods/lspd10.txd"/>
+	<file src="mods/lspd10.dff"/>
+
+	<file src="mods/lspd11.txd"/>
+	<file src="mods/lspd11.dff"/>
+
+	<file src="mods/lspd12.txd"/>
+	<file src="mods/lspd12.dff"/>
+
+	<file src="mods/lspd13.txd"/>
+	<file src="mods/lspd13.dff"/>
+
+	<file src="mods/lspd14.txd"/>
+	<file src="mods/lspd14.dff"/>
+
+	<file src="mods/lspd15.txd"/>
+	<file src="mods/lspd15.dff"/>
+
+	<file src="mods/lspd16.txd"/>
+	<file src="mods/lspd16.dff"/>
+
+	<file src="mods/lspd17.txd"/>
+	<file src="mods/lspd17.dff"/>
+
+	<file src="mods/lspd18.txd"/>
+	<file src="mods/lspd18.dff"/>
+
+	<file src="mods/lspd19.txd"/>
+	<file src="mods/lspd19.dff"/>
+
+	<file src="mods/lspd20.txd"/>
+	<file src="mods/lspd20.dff"/>
+
+	<file src="mods/lspd21.txd"/>
+	<file src="mods/lspd21.dff"/>
+
+	<file src="mods/fcru.txd"/>
+	<file src="mods/fcru.dff"/>
+
+	<file src="mods/fcry.txd"/>
+	<file src="mods/fcry.dff"/>
+
+</meta>

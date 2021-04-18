@@ -1,0 +1,16 @@
+<meta>
+
+	<!-- 
+		author: @bekiroj
+	-->
+
+	<oop>true</oop>
+
+	<!-- packages -->
+	<script src='packages/classlib.lua' type='shared' cache='false' />
+    <script src='packages/async.lua' type='shared'/>
+
+	<script src='window.lua' type='client' cache='false'/>
+	<script src='core.lua' type='server'/>
+
+</meta>

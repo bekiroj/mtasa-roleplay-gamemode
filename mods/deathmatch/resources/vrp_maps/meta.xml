@@ -1,0 +1,114 @@
+<meta>
+    <script src="c_createObject.lua" type="client"/>
+    <script src="s_cleanup.lua" type="server" />
+    <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client"></script>
+
+
+<!-- Fixes, etc. -->
+	<map src="fixes/stuntfix.map" dimension="0"></map>
+	<map src="fixes/missingwall_fix.map" dimension="0"></map>
+	<map src="fixes/casper-wallace-project.map" dimension="0"></map>
+   	<map src="fixes/kingis-exterior-fix-alptraum.map" dimension="0"></map>
+	<map src="fixes/BRIDGE-MAP-FIX.map" dimension="0"></map>
+	<map src="fixes/tokyotownflckz.map" dimension="0"></map>
+   	<script src="fixes/swimmingPools.lua" type="client"/>
+
+   	<script src="fixes/oci-office/c_oci_office.lua" type="client"/>
+	<file src="fixes/oci-office/office.col"/>
+	<file src="fixes/oci-office/office2.col"/>
+
+<!-- PUBLIC (OFFICIAL) AREAS -->
+	<!-- <map src="public/IftarCadiri.map" dimension="0"/> -->
+	
+	<map src="public/Starfish.map" dimension="0"></map>
+	<!-- <map src="public/EGMExterior.map" dimension="0"></map> -->
+	<map src="public/AsenaGaleri.map" dimension="0"></map>
+	<map src="public/Balik.map" dimension="0"></map>
+	<!--<map src="public/MarketGasStation.map" dimension="0"></map>-->
+	<map src="public/Saints.map" dimension="0"></map>
+	<map src="public/GuvenlikKameralari.map" dimension="0"></map>
+	<map src="public/CleaningC.map" dimension="0"></map>
+	<map src="public/IrishBar.map" dimension="0"></map>
+	<map src="public/DragMap.map" />
+	<map src="public/Giseler.map" dimension="0"></map>
+	<map src="public/Ext-IGS/igs.map" dimension="0"></map>
+	
+<!-- SPECIAL INTERIORS -->
+	<map src="interior/Int-UnitySewers\Sewers.map" dimension="655"></map>
+	<map src="interior/sinema.map" dimension="150"></map>
+	<map src="interior/fakulte.map" dimension="236"></map>
+	
+	<!-- <!-- <map src="interior/Rocky - Interior 93.map" dimension="93"></map> --> -->
+	<!-- <map src="interior/Kehao96 - Interior 74.map" dimension="74"></map> -->
+	<!-- <map src="interior/Kehao96 - Interior 102.map" dimension="102"></map> -->
+	<map src="interior/NoktaMotor.map" dimension="961"></map>
+	<map src="interior/ClubHouse.map" dimension="968"></map>
+
+<!-- FACTION MAPS -->
+	<!-- FAA -->
+		<!-- LSIA -->
+			<map src="faction/LSIA/ext_lsia_exciter.map" dimension="0"></map>
+		<!-- Control towers -->
+			<script src="faction/LSIA/atctowerinteriors.lua" type="client" />
+		<!-- Airport interior -->
+			<map src="faction/LSIA/int_LSA_1.map" dimension="1317"></map>
+			<map src="faction/LSIA/int_LSA_2.map" dimension="2337"></map>
+			<map src="faction/LSIA/int_LSA_term2.map" dimension="2340"></map>
+	<!-- SACMA -->
+		<!--<map src="faction/SACMA/SACMA.map" dimension="0"></map>-->
+		<script src="faction/SACMA/removeWorldObj.lua" type="client" />
+	<!-- Prison -->
+		<map src="faction/prison/prison.map" dimension="0"></map>
+	<!-- SASD -->
+		<map src="faction/SASD/PD-SD-Training-Grounds.map" dimension="0"></map>	
+		<map src="faction/SASD/sahp-nogate.map" dimension="0"></map>	
+		<map src="faction/SASD/SAHP-NoGates.map" dimension="0"></map>
+		<map src="faction/SASD/pd-training-ground-ranch/pd-training-ground-ranch.map" dimension="0"></map>		
+		<map src="faction/SASD/montgomery-precinct-Ext.map" dimension="0"></map>		
+	<!-- Al-Najjar -->
+		<!-- <map src="faction/Al-Najjar/Bashasexterior.map" dimension="0"></map> -->
+	<!-- LSN -->
+		<map src="faction/LSN/notrespasser.map" dimension="0"></map>
+		<map src="faction/LSN/StarTower_TopFloor.map" dimension="0"></map>
+		<map src="faction/LSN/Int-LSN.map" dimension="6"></map>
+	<!-- LSFD -->
+		<map src="faction/FD/FD.map" dimension="0"></map>
+		<map src="faction/FD/FDparking.map" dimension="0"></map>
+		<map src="faction/FD/CompleteHospitalInt.map" dimension="180"></map>
+		<map src="faction/FD/numunehastanesi.map" dimension="273"></map>
+	<!-- LSPD -->
+		<map src="faction/LSPD/LSPD-exterior.map" dimension="0"></map>
+		<map src="faction/LSPD/detective.map" dimension="0"></map>
+		<map src="faction/LSPD/lscsd.map" dimension="10"></map>
+		<script src="faction/LSPD/s_lscsd.lua" type="server" />
+		<map src="faction/LSPD/lspdinterior.map" dimension="10"></map>
+		<script src="faction/LSPD/s_lspd.lua" type="server" />
+	<!-- Towing -->
+		<script src="faction/towing/s_remove.lua" type="server" />
+		<map src="faction/towing/RT_3_withoutgates.map" dimension="0"></map>
+	<!-- Reaper Crew (Reaper's MC) -->
+		<!-- <map src="faction/ReaperCrew/ReapersMC.map" dimension="0"></map> -->
+	<!-- SAPT (San Andreas Public Transportation) -->
+		<map src="faction/SAPT/SAPTReadyOwlMap.map" dimension="0"></map>
+	<!-- Montalvo Connection -->
+		<map src="faction/MontalvoConnection/cartelisland2.map" dimension="0"></map>
+	<!-- Government of Los Santos -->
+		<map src="faction/gov/int_CityHall.map" dimension="2695"></map>
+		
+<!-- EVENT MAPS (limited time) -->
+	<!--<map src="events/santamaria.map" dimension="0"></map>-->
+	<!--<map src="events/icedPonds.map" dimension="0"></map>-->
+	<!--<map src="events/IdlewoodDemolishion.map" dimension="0"></map>-->
+	<!--<map src="public/Belgica_IGSremoved.map" dimension="0"></map>-->
+	<!-- LQC Construction projects -->
+
+<!-- SECONDARY: EXTERNAL ISLANDS, ETC. -->
+	<map src="secondary/Ext-DonutDriftingMap/Ext-DonutDriftingMap.map" dimension="0"></map>
+	<map src="secondary/tortuguilla/tortuguilla.map" dimension="0"></map>
+
+<!-- SECONDARY: PERSONAL MAPS -->
+			<!--<map src="personal/MuckGaleri.map" dimension="0"></map>-->
+			
+<min_mta_version client="1.3.0-9.03783"></min_mta_version>
+</meta>

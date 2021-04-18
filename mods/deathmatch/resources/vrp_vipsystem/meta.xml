@@ -1,0 +1,12 @@
+<meta>
+	<info author="Alern" name="vipsystem" description="VIP System" type="script" version="1.0.0"/>
+	<script src="async.lua" type="shared" cache="false"/>
+	<script src="vipsystem_Shared.lua" type="shared" cache="false"/>
+	<script src="specialFeatures_C.lua" type="client" cache="false"/>
+	
+	<script src="vipsystem_Commands_S.lua" type="server"/>
+	<script src="vipsystem_Core_S.lua" type="server"/>
+	
+	<export function="loadVIP" type="server"/>
+	<export function="addVIP" type="server"/>
+</meta>

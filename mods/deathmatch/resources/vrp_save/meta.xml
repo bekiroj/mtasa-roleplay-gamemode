@@ -1,0 +1,5 @@
+<meta>
+	<!-- @bekiroj save system -->
+	<script src="saveplayer.lua" type="server" />
+	<script src="savevehicle.lua" type="server" />
+</meta>

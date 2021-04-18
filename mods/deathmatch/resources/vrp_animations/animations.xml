@@ -1,0 +1,24 @@
+<catalog>
+	<group name="part_1">
+        <anim name="sitcross" />
+        <anim name="death" />
+        <anim name="LOU_Loop" />
+        <anim name="salute" />
+        <anim name="handsup" />
+        <anim name="blocdance" />
+        <anim name="throwhandsup" />
+        <anim name="BckHndSpingBTuck" />
+        <anim name="BckHndSping" />
+        <anim name="FrntHndSpring" />
+        <anim name="injuredknees" />
+        <anim name="headbutt" />
+        <anim name="faint" />
+        <anim name="collapseback" />
+        <anim name="standup_fromlay" />
+        <anim name="slav_squat" />
+        <anim name="handsbehindheadkneel" />
+        <anim name="stumbleback_collapse" />
+        <anim name="kneel_inspect" />
+		<anim name="HandsBehindBack" />
+    </group>
+</catalog>

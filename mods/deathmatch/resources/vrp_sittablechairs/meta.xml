@@ -1,0 +1,8 @@
+<meta>
+	<script src="c_sittable_chairs.lua" type="client" />
+	<script src="s_sittable_chairs.lua" type="server" />
+
+	<export function="isSittableChair" type="client" />
+	<export function="canSitOnChair" type="client" />
+	<export function="attemptToSitOnChair" type="client" />
+</meta>

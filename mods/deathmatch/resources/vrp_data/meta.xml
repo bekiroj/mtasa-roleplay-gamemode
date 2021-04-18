@@ -1,0 +1,16 @@
+<meta>
+    <info author="bekiroj" type="script" description="Valhalla Data System"/>
+	
+	<script src="general.lua" type="shared"/>
+	<export function="save" type="shared" />
+	<export function="load" type="shared" />
+	
+	<script src="report_s.lua" type="server"/>
+	<export function="saveReports" type="server" />
+	<export function="loadReports" type="server" />
+	
+	<script src="faction_drop_s.lua" type="server"/>
+	<export function="savePurchaseLogs" type="server" />
+	<export function="loadPurchaseLogs" type="server" />
+
+</meta>

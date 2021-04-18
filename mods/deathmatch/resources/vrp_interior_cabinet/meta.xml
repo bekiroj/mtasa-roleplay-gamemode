@@ -1,0 +1,7 @@
+<meta>
+    <info description="Lojistik Sistemi" version="1.0" author="Katredit" type="script" />
+	
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <oop>true</oop>
+</meta>

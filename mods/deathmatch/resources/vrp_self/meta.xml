@@ -1,0 +1,12 @@
+<meta>
+	<info author="projecte - identity" type="script"/>
+	<oop>true</oop>
+	
+	<!--
+		@construct.lua
+		@checker.lua
+		@author: foreigner26
+	-->
+	<script src="construct.lua" type="server" />
+	<script src="checker.lua" type="client" />
+</meta>

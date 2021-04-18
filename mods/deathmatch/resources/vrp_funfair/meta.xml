@@ -1,0 +1,15 @@
+<meta>  
+  <script src="components/donmedolap/server.lua" type="server" />
+  <script src="components/donmedolap/pos.lua" type="server" />
+  <script src="components/donmedolap/client.lua" type="client" />
+  
+  <script src="components/balon/client.lua" type="client" />
+  <script src="components/balon/server.lua" type="server" />
+  
+  <file src="dosyalar/donmedolap.col" />
+  <file src="dosyalar/balon.col" />
+  <file src="dosyalar/balon.dff" />
+  <file src="dosyalar/balon.txd" />
+  
+  <map src="components/balon-map.map" dimension="0" />
+</meta>

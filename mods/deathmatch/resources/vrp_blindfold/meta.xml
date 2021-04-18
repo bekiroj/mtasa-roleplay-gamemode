@@ -1,0 +1,7 @@
+<meta>
+<info author="Alern" type="script" name="Bank system" version="1.0.0"></info>
+<export function="addVIP" type="server"/>
+<export function="checkPlayerVIP" type="server"/>
+<script src="client.lua" type="client" cache="false" />
+<script src="server.lua" type="server" />
+</meta>

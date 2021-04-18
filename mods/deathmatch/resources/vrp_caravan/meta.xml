@@ -1,0 +1,12 @@
+<meta>
+    <info description="Karavan Sistemi" version="1.0" author="Katredit" type="script" />
+	
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <script src="ayar.lua" type="shared" />
+    
+    <file src='Dosyalar/1.txd' />
+	<file src='Dosyalar/2.dff' />
+
+    <oop>true</oop>
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+	<script src="core/client-side.lua" type="client"/>
+	<script src="core/shared.lua" type="server"/>
+	<script src="core/shared.lua" type="client"/>
+
+	<export function="formatTimeInterval" type="server" />
+	<export function="formatTimeInterval" type="client" />
+	<export function="formatFutureTimeInterval" type="server" />
+	<export function="formatFutureTimeInterval" type="client" />
+	<export function="formatSeconds" type="server" />
+	<export function="formatSeconds" type="client" />
+	<export function="now" type="server" />
+	<export function="now" type="client" />
+</meta>

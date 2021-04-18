@@ -1,0 +1,26 @@
+<meta>
+	<oop>true</oop>
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false" />
+	<file src="neons/neonCollision.col" />
+    <file src="neons/blue.dff" />
+    <file src="neons/green.dff" />
+    <file src="neons/pink.dff" />
+    <file src="neons/red.dff" />
+    <file src="neons/white.dff" />
+    <file src="neons/yellow.dff" />
+    <file src="neons/orange.dff" />
+    <file src="neons/lightblue.dff" />
+    <file src="neons/rasta.dff" />
+    <file src="neons/ice.dff" />
+    <file src="images/neon1.jpg"/>
+    <file src="images/neon2.jpg"/>
+    <file src="images/neon3.jpg"/>
+    <file src="images/neon4.jpg"/>
+    <file src="images/neon5.jpg"/>
+    <file src="images/neon6.jpg"/>
+    <file src="images/neon7.jpg"/>
+    <file src="images/neon8.jpg"/>
+    <file src="images/neon9.jpg"/>
+    <file src="images/neon10.jpg"/>
+</meta>

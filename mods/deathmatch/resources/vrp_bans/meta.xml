@@ -1,0 +1,6 @@
+<meta>
+	<script src='components/server.lua' type='server'/>
+	
+	<export function="checkAccountBan" type="server"/>
+	<export function="addToBan" type="server"/>
+</meta>	

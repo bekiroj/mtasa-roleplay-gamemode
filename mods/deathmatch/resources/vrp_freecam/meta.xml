@@ -1,0 +1,26 @@
+<meta>
+	<!--@bekiroj -->
+
+	<script src="client.lua" type="client" cache="false" />
+	<script src="server.lua" type="server" />	
+	<script src="shared.lua" type="shared" cache="false" />	
+
+	<export function="isEnabled" type="shared"/>
+	<export function="toggleFreecam" type="client" />
+	
+	<!-- server functions -->
+	<export function="setPlayerFreecamEnabled" />
+	<export function="setPlayerFreecamDisabled" />
+	<export function="isPlayerFreecamEnabled" />
+	<export function="setPlayerFreecamOption" />
+	<export function="isPlayerFreecamEnabled" type="server"/>
+	<export function="add" type="server"/>
+	<!-- client functions -->
+	<export function="isPlayerFreecamEnabled" type="client" />
+	<export function="setFreecamEnabled" type="client" />
+	<export function="setFreecamDisabled" type="client" />
+	<export function="isFreecamEnabled" type="client" />
+	<export function="setFreecamOption" type="client" />
+	<export function="getFreecamOption" type="client" />
+	<export function="getFreecamVelocity" type="client" />
+</meta>

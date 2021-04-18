@@ -1,0 +1,38 @@
+<meta>
+    <script src="client.lua" type="client" cache="false"/>
+    <script src="server.lua" type="server" />
+
+    <export function="addCharacterKillBody" type="server" />
+    <export function="hideSpeedo" type="client" />
+    <export function="showSpeedo" type="client" />
+    <export function="isLocalPlayerSmoking" type="client" />
+    <export function="doHandbrake" type="client" />
+    <export function="isCcEnabled" type="client" />
+
+	<file src="components/sounds/TruckBackingUpBeep.mp3" />
+    <file src="components/sounds/reload.wav" />
+    <file src="components/sounds/horn.wav" />
+    <file src="components/sounds/siren.wav" />
+    <file src="components/sounds/policebeep.mp3" />
+    <file src="seatbelt/seatbelt.png" />
+    <file src="seatbelt/seatbeltwarning.wav" />
+    <file src="wheels/wheel_gn1.dff" download="false" />
+    <file src="wheels/wheel_gn2.dff" download="false" />
+    <file src="wheels/wheel_gn3.dff" download="false" />
+    <file src="wheels/wheel_gn4.dff" download="false" />
+    <file src="wheels/wheel_gn5.dff" download="false" />
+    <file src="wheels/wheel_lr1.dff" download="false" />
+    <file src="wheels/wheel_lr2.dff" download="false" />
+    <file src="wheels/wheel_lr3.dff" download="false" />
+    <file src="wheels/wheel_lr4.dff" download="false" />
+    <file src="wheels/wheel_lr5.dff" download="false" />
+    <file src="wheels/wheel_or1.dff" download="false" />
+    <file src="wheels/wheel_sr1.dff" download="false" />
+    <file src="wheels/wheel_sr2.dff" download="false" />
+    <file src="wheels/wheel_sr3.dff" download="false" />
+    <file src="wheels/wheel_sr4.dff" download="false" />
+    <file src="wheels/wheel_sr5.dff" download="false" />
+    <file src="wheels/wheel_sr6.dff" download="false" />
+
+    <min_mta_version server="1.3.1-9.04935"></min_mta_version>
+</meta>

@@ -1,0 +1,4 @@
+<meta>
+    <script src="weapon.lua" type="client" />
+    <script src="noblur.lua" type="server" />
+</meta>

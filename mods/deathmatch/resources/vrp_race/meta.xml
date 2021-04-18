@@ -1,0 +1,8 @@
+<meta>
+    <info description="yaris Sistemi" version="1.0" author="pavlov" type="script" />
+	
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <script src="ayar.lua" type="shared" />
+    <oop>true</oop>
+</meta>

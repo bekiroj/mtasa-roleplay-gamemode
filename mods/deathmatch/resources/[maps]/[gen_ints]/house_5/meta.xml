@@ -1,0 +1,7 @@
+<meta>  
+<info author='Pizani3D' description='' version='1.0' type='script' />  
+<script src='client.lua' type='client' />  
+<file src='1919.txd' type='client' />  
+<file src='1919.dff' type='client' />  
+<file src='1919.col' type='client' />
+</meta>

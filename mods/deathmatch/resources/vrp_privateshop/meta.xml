@@ -1,0 +1,19 @@
+<meta>
+	<oop>true</oop>	
+	<script src="async.lua" type="shared"/>
+    <script src="server/server.lua" type="server" />
+	
+	<script src="shared/shared.lua" type="server" />
+	<script src="shared/shared.lua" type="client" />
+	
+    <script src="client/client.lua" type="client" cache="false" />
+
+    <script src="colorpicker/client.lua" type="client" />
+	<file src="colorpicker/cursor.png" />
+	<file src="colorpicker/h.png" />
+	<file src="colorpicker/sv.png" />
+	<file src="colorpicker/blank.png" />
+	<export function="loadTaxSettings" type="server"/>
+	<export function="getPrivateSettings" type="client"/>
+	<export function="callbackGive" http="true"/>
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+	<info author="bekiroj" type="script" description="Valhalla Anticheat System"/>
+	
+	<script src="core/client-side.lua" type="client" cache="false"/>
+	<script src="core/server-side.lua" type="server"/>
+
+	<export function="changeProtectedElementDataEx" type="server"/>
+	<export function="setEld" type="shared"/>
+	<export function="changeProtectedElementData" type="server"/>
+	<export function="changeEld" type="server"/>
+	<export function="protectElementData" type="server"/>
+	<export function="allowElementData" type="server"/>
+	<export function="fetchH" type="server"/>
+</meta>

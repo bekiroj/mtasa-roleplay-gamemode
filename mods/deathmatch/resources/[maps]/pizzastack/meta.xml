@@ -1,0 +1,5 @@
+<meta>
+     <info author="Cakir_Mod_Team" description="MTA Resource Repalce Master PRO" version="1.3" type="script" />
+     <script src="client.lua" type="client"/>
+     <file src="object.txd" cache="false"/>
+</meta>

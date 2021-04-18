@@ -1,0 +1,9 @@
+<meta>
+	<oop>true</oop>
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="server.lua" type="server" />
+	<script src="global.lua" type="shared" />
+	<export function="kelepcele" type="shared" />
+	<file src="cuff.dff"/>
+	<file src="cuff.txd"/>
+</meta>

@@ -1,0 +1,62 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="icons.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.5" server="1.5.5"></min_mta_version>
+    <file src="files/Modern.ttf"></file>
+    <file src="files/Rubik-Bold.ttf"></file>
+    <file src="files/Rubik-Regular.ttf"></file>
+    <file src="files/Rubik-Light.ttf"></file>
+    <file src="files/gotham_light.ttf"></file>
+    <file src="files/Roboto.ttf"></file>
+    <file src="files/RobotoB.ttf"></file>
+    <file src="files/SARP.ttf"></file>
+    <file src="files/Raleway.ttf"></file>
+    <file src="files/RobotoL.ttf"></file>
+    <file src="files/OpenSans.ttf"></file>
+    <file src="files/FontAwesome.ttf"></file>
+    <file src="files/BoldFont.ttf"></file>
+    <file src="files/gtaFont.ttf"></file>
+    <file src="files/loginfont.ttf"></file>
+    <file src="files/Yantramanav-Black.ttf"></file>
+    <file src="files/Yantramanav-Regular.ttf"></file>
+    <file src="files/Azzardo-Regular.ttf"></file>
+    <file src="files/ArtegraSans-Black.otf"></file>
+    <file src="files/ArtegraSans-Bold.otf"></file>
+    <file src="files/ArtegraSans-Thin.otf"></file>
+    <file src="files/ArtegraSans-ExtraBold.otf"></file>
+    <file src="files/DeansGateB.ttf"></file>
+    <file src="files/FontAwesome5.ttf"></file>
+    <file src="files/FontAwesomeBrand.otf"></file>
+    <file src="files/FontAwesomeRegular.otf"></file>
+    <file src="files/FontAwesomeSolid.otf"></file>
+    <file src="files/Roboto-Bold.ttf" />
+    <file src="files/Roboto-Black.ttf" />
+    <file src="files/Roboto-Regular.ttf" />
+    <file src="files/Roboto-Light.ttf" />
+    <file src="files/Roboto-Light-Italic.ttf" />
+    <export function="getFont" type="client"></export>
+    <export function="getIcon" type="client" />
+
+    <file src="components/nametags0.ttf" />
+    <file src="components/Bebas.ttf" />
+    <file src="components/old_school_united_stencil.ttf" />
+    <file src="components/Roboto.ttf" />
+    <file src="components/gtaFont.ttf" />
+    <file src="components/semibold.ttf" />
+    <file src="components/font.ttf" />
+    <file src="components/FontAwesome.ttf" />
+    <file src="components/BentonSansRegural.otf" />
+    <file src="components/BebasNeueBold.otf" />
+    <file src="components/OpenSans.ttf" />
+    <file src="components/BizNote.ttf" />
+    <file src="components/Cargo_Two_SF.ttf" />
+    <file src="components/bekiroj.ttf" />
+    <file src="components/bekiroj2.ttf" />
+    <file src="components/big_noodle_titling.ttf" />
+    <file src="components/big_noodle_titling_oblique.ttf" />
+    <file src="components/Documenta.otf" />
+    <file src="components/QualyBold.ttf" />
+    <file src="components/chaletcomprime.ttf" />
+    <file src="components/Sultan.otf" />
+</meta>

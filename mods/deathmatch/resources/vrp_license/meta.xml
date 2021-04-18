@@ -1,0 +1,13 @@
+<meta>
+	<script src="s_license_system.lua" type="server"/>
+	<script src="c_license_system.lua" type="client" cache="false"/>
+
+	<script src="s_drivers_license.lua" type="server"/>
+	<script src="c_drivers_license.lua" type="client" cache="false"/>
+
+	<script src="s_bikers_license.lua" type="server"/>
+	<script src="c_bikers_license.lua" type="client" cache="false"/>
+
+	<script src="s_boat_license.lua" type="server"/>
+	<script src="c_boat_license.lua" type="client" cache="false"/>
+</meta>

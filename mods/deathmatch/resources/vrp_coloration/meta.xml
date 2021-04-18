@@ -1,0 +1,7 @@
+<meta>
+    <oop>true</oop>
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="icons/client.lua" type="client" cache="false"></script>
+    <export function="getServerColor" type="shared"></export>
+    <export function="getIcon" type="client"></export>
+</meta>

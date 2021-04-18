@@ -1,0 +1,21 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (newbuildsm01) (1)" radius="76.971939" interior="0" model="4019" lodModel="4025" posX="1777.8359" posY="-1773.9062" posZ="12.52344" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (newbuildsm02) (1)" radius="27.849701" interior="0" model="4018" lodModel="4075" posX="1791.7969" posY="-1716.9844" posZ="12.52344" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (langrasspatch) (1)" radius="48.207302" interior="0" model="4027" lodModel="4076" posX="1783.1016" posY="-1702.3047" posZ="14.35156" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (circusconstruct06) (1)" breakable="true" interior="0" alpha="255" model="7016" doublesided="false" scale="1" dimension="0" posX="1806" posY="-1781.3" posZ="13.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (circusconstruct07) (1)" breakable="true" interior="0" alpha="255" model="7017" doublesided="false" scale="1" dimension="0" posX="1774.9" posY="-1742.4" posZ="13.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (circusconstruct07) (2)" breakable="true" interior="0" alpha="255" model="7017" doublesided="false" scale="1" dimension="0" posX="1749.2" posY="-1777.5" posZ="13.5" rotX="0" rotY="0" rotZ="107.75"></object>
+    <object id="object (circusconstruct07) (3)" breakable="true" interior="0" alpha="255" model="7017" doublesided="false" scale="1" dimension="0" posX="1762.1" posY="-1813.3" posZ="13.5" rotX="0" rotY="0" rotZ="165.996"></object>
+    <object id="object (tunnelentrance) (1)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1809" posY="-1712.3" posZ="12.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tunnelentrance) (2)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1808.9" posY="-1696.1" posZ="12.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (tunnelentrance) (3)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1797.9" posY="-1719.9" posZ="12.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (tunnelentrance) (4)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1775.9" posY="-1720" posZ="12.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (tunnelentrance) (5)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1764.5" posY="-1719.8" posZ="12.4" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (tunnelentrance) (6)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1757.5" posY="-1708.5" posZ="12.4" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (tunnelentrance) (7)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1757.6" posY="-1692.1" posZ="12.4" rotX="0" rotY="0" rotZ="179.995"></object>
+    <object id="object (tunnelentrance) (8)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1768.9" posY="-1685.1" posZ="12.4" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (tunnelentrance) (9)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1793.7" posY="-1685.1" posZ="12.4" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (tunnelentrance) (10)" breakable="true" interior="0" alpha="255" model="972" doublesided="false" scale="1" dimension="0" posX="1801.8" posY="-1685" posZ="12.4" rotX="0" rotY="0" rotZ="89.995"></object>
+    <object id="object (cuntyeland04) (1)" breakable="true" interior="0" alpha="255" model="12814" doublesided="false" scale="1" dimension="0" posX="1769.1" posY="-1698.8" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (cuntyeland04) (2)" breakable="true" interior="0" alpha="255" model="12814" doublesided="false" scale="1" dimension="0" posX="1798.9" posY="-1698.4" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+</map>

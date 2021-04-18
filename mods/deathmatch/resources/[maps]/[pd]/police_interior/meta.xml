@@ -1,0 +1,11 @@
+<meta>
+    <script type="client" src="sourceC.lua" cache="false" />
+	<file src="Dosyalar/exterior_pd.txd" cache="false" />
+	<file src="Dosyalar/exterior_pd.dff" cache="false" />
+    <file src="Dosyalar/exterior_pd.col" cache="false" />
+	<file src="Dosyalar/pd_props.txd" cache="false" />
+	<file src="Dosyalar/pd_props.dff" cache="false" />
+    <file src="Dosyalar/pd_props.col" cache="false" />
+    <export type="shared" function="getModelIdFromName" />
+    <download_priority_group>-15</download_priority_group>
+</meta>

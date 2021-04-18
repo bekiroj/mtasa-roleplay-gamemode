@@ -1,0 +1,8 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (pier04a_LAw2) (1)" radius="17.99844" interior="0" model="6462" lodModel="6465" posX="368.05469" posY="-2028.2422" posZ="8.73438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (des_baitshop) (1)" breakable="true" interior="0" alpha="255" model="11497" doublesided="false" scale="1" dimension="0" posX="357.10001" posY="-2032" posZ="6.3" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (DYN_BAR_B_Q) (3)" breakable="true" interior="0" alpha="255" model="1481" doublesided="false" scale="1" dimension="0" posX="361.70001" posY="-2030.2" posZ="7.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (DYN_BAR_B_Q) (6)" breakable="true" interior="0" alpha="255" model="1481" doublesided="false" scale="1" dimension="0" posX="361.79999" posY="-2036.5" posZ="7.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (DYN_BAR_B_Q) (7)" breakable="true" interior="0" alpha="255" model="1481" doublesided="false" scale="1" dimension="0" posX="361.79999" posY="-2034.4" posZ="7.5" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (DYN_BAR_B_Q) (8)" breakable="true" interior="0" alpha="255" model="1481" doublesided="false" scale="1" dimension="0" posX="361.79999" posY="-2032.5" posZ="7.5" rotX="0" rotY="0" rotZ="90"></object>
+</map>

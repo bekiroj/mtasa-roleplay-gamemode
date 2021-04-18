@@ -1,0 +1,5 @@
+<meta>
+<info author="Nexusmask" type="script" name="Texto en Marker" version="1.0.0"></info>
+<script src="Client.lua" type="client" cache="false" />
+<script src="Server.lua" type="server" />
+</meta>

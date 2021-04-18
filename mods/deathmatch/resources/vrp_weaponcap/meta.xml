@@ -1,0 +1,13 @@
+<meta>
+
+	<!-- @bekiroj weaponcap system -->
+	
+	<script src="client.lua" type="client" cache="false" />
+	<export function="getAmmoCap" type="client" />
+	<export function="getFreeAmmo" type="client" />
+	
+	<script src="server.lua" type="server" />
+	<export function="getAmmoCap" type="server" />
+	<export function="getAmmoCap" type="server" />
+	<export function="getGTACap" type="server" />
+</meta>

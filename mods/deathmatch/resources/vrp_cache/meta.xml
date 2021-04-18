@@ -1,0 +1,48 @@
+<meta>
+    <info author="Maxime - OwlGaming Scripting Team" type="script" description="Cache System"/>	
+	
+	<script src="usernames_s.lua" type="server"/>
+	<script src="usernames_c.lua" type="client"/>
+	
+	<export function="getUsername" type="server"/>
+	<export function="getUsername" type="client"/>
+
+	<export function="getUsernameFromId" type="server"/>
+
+	<script src="characternames_s.lua" type="server"/>
+	<script src="characternames_c.lua" type="client"/>
+	
+	<script src="businessnames_s.lua" type="server"/>
+	<script src="businessnames_c.lua" type="client"/>
+	
+	<export function="getCharacterNameFromID" type="server"/>
+	<export function="getCharacterNameFromID" type="client"/>
+	
+	<export function="getBusinessNameFromID" type="server"/>
+	<export function="getBusinessNameFromID" type="client"/>
+
+	<export function="checkUsernameExistance" type="server"/>
+	<export function="checkUsernameExistance" type="client"/>
+
+	<script src="factions_s.lua" type="server"/>
+	<script src="factions_c.lua" type="client"/>
+
+	<export function="getFactionNameFromId" type="server"/>
+	<export function="getFactionNameFromId" type="client"/>
+	
+	<script src="g_debug.lua" type="server"/>
+	<script src="g_debug.lua" type="client"/>
+	
+	<script src="s_playernames.lua" type="server"/>
+	<export function="clearCharacterCache" type="server"/>
+	<export function="clearCharacterName" type="server"/>
+	<export function="getCharacterName" type="server"/>
+	<export function="stats" type="server"/>
+
+	<script src="s_image.lua" type="server"/>
+	<export function="addImage" type="server"/>
+	<export function="removeImage" type="server"/>
+	<export function="getImage" type="server"/>
+	<file src="default.png"/>
+	<export function="getAccountFromCharacterId" type="server"/>
+</meta>

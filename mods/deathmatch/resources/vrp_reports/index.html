@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta author="Disco">
+    <title>Eon - Reports</title>
+  </head>
+  <body style="background: transparent;">
+    <div class="center">
+      <div class="uk-card uk-card-default uk-width-1-2@m" style="max-width: 700px;">
+          <div class="uk-card-header">
+              <div class="uk-grid-small uk-flex-middle" uk-grid>
+                  <div class="uk-width-expand">
+                      <h3 class="uk-card-title uk-margin-remove-bottom">Raporlama Merkezi</h3>
+                      <p class="uk-text-meta uk-margin-remove-top">Aşağıya yaşadığınız sorunları yazın ve yetkili ekibimize aktarın.</p>
+                      <div class="uk-alert-danger" uk-alert>
+                        <p>"Admin bey fix atar mısın, bugda kaldım şuraya ışınlar mısın" tarzı rapor göndermek kesinlikle YASAKTIR.</p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div class="uk-card-body">
+              <textarea class="uk-textarea" maxlength="120" id="problems" style="min-height:50px; max-height: 50px; min-width: 100%; max-height: 100%;"></textarea>
+          </div>
+          <div class="uk-card-footer">
+              <a href="#" class="uk-button uk-button-danger" onclick="mta.triggerEvent('reports.close');">Kapat</a>
+              <a href="#" class="uk-button uk-button-primary uk-float-right" onclick="mta.triggerEvent('reports.send', document.getElementById('problems').value); document.getElementById('problems').value ='';">Gönder</a>
+          </div>
+      </div>
+    </div>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/mtaevents.js"></script>
+  </body>
+</html>

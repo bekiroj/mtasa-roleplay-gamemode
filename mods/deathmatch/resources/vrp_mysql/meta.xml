@@ -1,0 +1,5 @@
+<meta>
+    <oop>true</oop>
+	<script src="events.lua" type="server"/>
+	<export function="getConnection" type="server"/>
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+	<script src="events.lua" type="server" />
+	<script src="global.lua" type="shared" />
+
+	<script src="fuelling/client.lua" type="client" cache="false"/>
+	<script src="fuelling/server.lua" type="server"/>
+	<export function="getMaxFuel" type="shared" />
+</meta>

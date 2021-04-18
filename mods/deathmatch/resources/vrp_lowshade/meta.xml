@@ -1,0 +1,22 @@
+<meta>
+	<info description="ProjectE - [Effects] Lowshade" author="dP Team - foreigner26" version="0.2.0" type="script" />
+
+	<oop>true</oop>
+
+	<!-- 
+		@shade.lua
+	-->
+	<script src="shade.lua" type="client" cache="false"/>
+	
+	<!-- 
+		@components shade_instance
+		@base_dir: components/
+	-->
+	<file src="components/shader/texture.fx" type="client" />
+
+	<file src="components/1.png"/>
+	<file src="components/2.png"/>
+	<file src="components/3.png"/>
+	<file src="components/off.png"/>
+	<file src="components/on.png"/>
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+	<script src="s_gate_action.lua" type="server"/>
+	<script src="s_gates.lua" type="server"/>
+	<script src="c_gates.lua" type="client"/>
+	<script src="c_gate_action.lua" type="client"/>
+	<script src="c_gate_manager.lua" type="client"/> 
+	<script src="s_gate_manager.lua" type="server"/>
+	<export function="createGate" type="server"/>
+	<export function="removeGate" type="server"/>	
+	<file src="sound/gate_open.mp3"/>
+	<file src="sound/gate_close.mp3"/>
+	<file src="sound/alarmbell.wav"/>
+	<min_mta_version client="1.5.5-9.14060" server="1.5.5-9.14060" />
+</meta>

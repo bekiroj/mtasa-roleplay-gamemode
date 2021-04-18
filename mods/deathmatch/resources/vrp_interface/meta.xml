@@ -1,0 +1,22 @@
+<meta>
+    <info name="projecte - interface" author="yourpalenes" version="rc0.9" type="script"/>
+    <oop>true</oop>
+    <!-- 
+        @classlib.lua
+        @author:sbx320
+    -->
+    <script src="packages/classlib.lua" type="shared"/>
+    <!-- 
+        @draw.lua
+        @array.lua
+        @author:yourpalenes
+    
+	<script src='array.lua' type='client' />-->
+
+	<!-- Fonts -->
+    <file src='fonts/Yantramanav-Regular.ttf' type='client' />
+    <file src='fonts/Yantramanav-Black.ttf' type='client' />
+    <file src='fonts/gotham_light.ttf' type='client' />
+    <file src='fonts/Roboto.ttf' type='client' />
+    <file src='fonts/FontAwesome.ttf' type='client' />
+</meta>

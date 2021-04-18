@@ -1,0 +1,74 @@
+<meta>
+
+	<!-- 
+	
+		@author:bekiroj
+		
+	-->
+	
+    <oop>true</oop>
+	
+	<!-- @general -->
+	<script src="client.lua" type="client" cache="false"></script>	
+	<script src="server.lua" type="server"></script>	
+	
+	
+	<!-- @wheel -->
+    <script src="wheel/client.lua" type="client" cache="false"></script>
+    <script src="wheel/server.lua" type="server"></script>	
+    <file src="wheel/main/main.png"/>
+	
+	<!-- @wheels gallery -->
+	<file src="files/wheels/1.png" />
+    <file src="files/wheels/2.png" />
+    <file src="files/wheels/3.png" />
+    <file src="files/wheels/4.png" />
+    <file src="files/wheels/5.png" />
+    <file src="files/wheels/6.png" />
+    <file src="files/wheels/7.png" />
+    <file src="files/wheels/8.png" />
+    <file src="files/wheels/9.png" />
+    <file src="files/wheels/10.png" />
+	<file src="files/sounds/drill.mp3" />
+	
+	<!-- @spoiler -->
+    <script src="spoiler/client.lua" type="client" cache="false"></script>
+    <script src="spoiler/server.lua" type="server"></script>		
+    <file src="spoiler/main/main.png"/>
+
+	<!-- @spoilers gallery -->
+	<file src="files/spoilers/1.png" />
+	<file src="files/spoilers/2.png" />
+	<file src="files/spoilers/3.png" />
+	<file src="files/spoilers/4.png" />
+	<file src="files/spoilers/5.png" />
+	<file src="files/spoilers/6.png" />
+	<file src="files/spoilers/7.png" />
+	<file src="files/spoilers/8.png" />
+	<file src="files/spoilers/9.png" />
+	<file src="files/spoilers/10.png" />
+	<file src="files/spoilers/11.png" />
+	<file src="files/spoilers/12.png" />
+	<file src="files/spoilers/13.png" />
+	<file src="files/spoilers/14.png" />
+	<file src="files/spoilers/15.png" />
+	<file src="files/spoilers/16.png" />
+	<file src="files/spoilers/17.png" />
+	<file src="files/spoilers/18.png" />
+	<file src="files/spoilers/19.png" />
+	
+	<!-- @spoiler -->
+    <script src="korna/client.lua" type="client" cache="false"></script>
+    <script src="korna/server.lua" type="server"></script>		
+    <file src="korna/main/main.png"/>
+    <file src="korna/main/korna.png"/>
+	
+	<!-- @classlib-author:scytds12 -->
+    <script src="packages/classlib.lua" type="shared" />
+    <script src="packages/async.lua" type="shared" />
+    <script src="packages/webwindow.lua" type="client" />
+    <script src="packages/webuimanager.lua" type="client" />	
+	
+	
+	
+</meta>

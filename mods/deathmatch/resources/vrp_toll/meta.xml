@@ -1,0 +1,10 @@
+<meta>
+	<script src="c_tollsystem.lua" type="client" />
+	
+	<script src="g_tollports.lua" type="server" />
+	<script src="s_tollsystem.lua" type="server" />
+	
+	<script src="early_open_s.lua" type="server" />
+
+	<export function="isTollLocked" type="server" />
+</meta>

@@ -1,0 +1,7 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (Cedar1_hi) (1)" radius="12.831414" interior="0" model="766" lodModel="0" posX="2429.625" posY="99.96875" posZ="26.27344" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_F_R_WOOD_4) (1)" radius="4.4736533" interior="0" model="1446" lodModel="0" posX="2453.8572" posY="93.9682" posZ="26.48628" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_F_R_WOOD_4) (2)" radius="4.4736533" interior="0" model="1446" lodModel="0" posX="2453.8572" posY="97.62657" posZ="25.94837" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (DYN_F_R_WOOD_4) (3)" radius="4.4736533" interior="0" model="1446" lodModel="0" posX="2453.8572" posY="103.61438" posZ="26.40338" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (Pinebg_hism) (1)" radius="6.4893575" interior="0" model="779" lodModel="0" posX="2450.1719" posY="101.4375" posZ="25.05469" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

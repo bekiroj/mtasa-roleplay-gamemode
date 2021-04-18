@@ -1,0 +1,96 @@
+<meta>
+    <oop>true</oop>
+    
+    <!-- 
+		@classlib.lua
+		@author: sbx320
+	-->
+    <script src="packages/classlib.lua" type="shared" cache="false" />
+    
+    <script src="c_hud.lua" type="client" cache="false" />
+    
+    <script src="s_humanistic_functions.lua" type="server" />
+    <script src="c_humanistic_functions.lua" type="client" cache="false" />
+    
+    <script src="c_overlay_top_right.lua" type="client" cache="false" />
+    <script src="c_overlay_bottom_center.lua" type="client" cache="false" />
+    <script src="s_overlay_basic_info.lua" type="server" />
+    <script src="s_overlay_show_admins.lua" type="server" />
+    
+    <script src="c_overlay_functions.lua" type="client" cache="false" />
+    <script src="s_overlay_functions.lua" type="server" />
+    
+    <export function="sendBottomNotification" type="client" />
+    <export function="sendBottomNotification" type="server" />
+    <export function="sendTopRightNotification" type="client" />
+    <export function="sendTopRightNotification" type="server" />
+    <export function="getPlayerInterfaceMode" type="client" />
+    
+    <script src="blur/blur_c.lua" type="client" cache="false" />
+    <file src="blur/blurshader.fx" type="client" />
+    
+    <file src="fonts/nametags0.ttf" />
+    <file src="fonts/Bebas.ttf" />
+    <file src="fonts/old_school_united_stencil.ttf" />
+    <file src="fonts/Roboto.ttf" />
+    <file src="fonts/gtaFont.ttf" />
+    <file src="fonts/semibold.ttf" />
+    <file src="fonts/font.ttf" />
+    <file src="fonts/FontAwesome.ttf" />
+    <file src="fonts/BentonSansRegural.otf" />
+    <file src="fonts/BebasNeueBold.otf" />
+    <file src="fonts/OpenSans.ttf" />
+    
+    <!-- 
+      @components ui_instance
+    -->
+
+    <file src="components/images/hud.png" type="client" />
+    <file src="components/images/logo.png" type="client" />
+    <file src="components/images/admins.png" type="client" />
+    <file src="components/images/information.png" type="client" />
+
+    <file src="components/weapon/0.png" />
+    <file src="components/weapon/1.png" />
+    <file src="components/weapon/2.png" />
+    <file src="components/weapon/3.png" />
+    <file src="components/weapon/4.png" />
+    <file src="components/weapon/5.png" />
+    <file src="components/weapon/6.png" />
+    <file src="components/weapon/7.png" />
+    <file src="components/weapon/8.png" />
+    <file src="components/weapon/9.png" />
+    <file src="components/weapon/10.png" />
+    <file src="components/weapon/11.png" />
+    <file src="components/weapon/12.png" />
+    <file src="components/weapon/14.png" />
+    <file src="components/weapon/15.png" />
+    <file src="components/weapon/16.png" />
+    <file src="components/weapon/17.png" />
+    <file src="components/weapon/18.png" />
+    <file src="components/weapon/22.png" />
+    <file src="components/weapon/23.png" />
+    <file src="components/weapon/24.png" />
+    <file src="components/weapon/25.png" />
+    <file src="components/weapon/26.png" />
+    <file src="components/weapon/27.png" />
+    <file src="components/weapon/28.png" />
+    <file src="components/weapon/29.png" />
+    <file src="components/weapon/30.png" />
+    <file src="components/weapon/31.png" />
+    <file src="components/weapon/32.png" />
+    <file src="components/weapon/33.png" />
+    <file src="components/weapon/34.png" />
+    <file src="components/weapon/35.png" />
+    <file src="components/weapon/36.png" />
+    <file src="components/weapon/37.png" />
+    <file src="components/weapon/38.png" />
+    <file src="components/weapon/39.png" />
+    <file src="components/weapon/40.png" />
+    <file src="components/weapon/41.png" />
+    <file src="components/weapon/42.png" />
+    <file src="components/weapon/43.png" />
+    <file src="components/weapon/44.png" />
+    <file src="components/weapon/45.png" />
+    <file src="components/weapon/46.png" />
+</meta>

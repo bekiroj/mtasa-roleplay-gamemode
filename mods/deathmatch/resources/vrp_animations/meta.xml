@@ -1,0 +1,49 @@
+<meta>
+	<oop>true</oop>
+	<file src="custom/fortnite_1.ifp" />
+	<file src="custom/fortnite_2.ifp" />
+	<file src="custom/custom_1.ifp" />
+	<file src="custom/custom_2.ifp" />
+	<file src="custom/custom_3.ifp" />
+	<file src="custom/custom_4.ifp" />
+	<file src="custom/custom_5.ifp" />
+	<file src="custom/custom_6.ifp" />
+	<file src="custom/custom_7.ifp" />
+	<file src="custom/custom_8.ifp" />
+	<file src="custom/custom_9.ifp" />
+	<file src="custom/custom_10.ifp" />
+	<file src="custom/custom_11.ifp" />
+	<file src="custom/custom_12.ifp" />
+	<file src="custom/dance_1.ifp" />
+	<file src="custom/watchdogs.ifp" />
+   	<file src="custom/gta4.ifp" />
+	<file src="custom/gta5.ifp" />
+	<file src="custom/swat.ifp" />
+	<file src="custom/horse_animation.ifp" />
+	<file src="custom/kissing.ifp" />
+	<file src="custom/sex.ifp" />
+	<file src="custom/blowjob.ifp" />
+	<file src="custom/aim.ifp" />
+	<file src="custom/gang.ifp" />
+	<file src="custom/tired.ifp" />
+	<file src="custom/rapping.ifp" />
+	<file src="custom/seat-idle.ifp" />
+
+   	<file src="assets/Roboto.ttf" />
+	<script src="anim_s.lua" type="server"/>
+	<script src="anim_c.lua" type="client" cache="false"/>
+
+	<script src="custom_s.lua" type="server"/>
+	<script src="custom_c.lua" type="client" cache="false"/>
+
+	<config src="animations.xml" type="client" />
+	
+	<script src="list_s.lua" type="server" />
+	<script src="list_c.lua" type="client" cache="false"/>
+
+	<export function="serverToAnim" type="client" />
+	<export function="getCustomAnimations" type="client" />
+	<export function="setPlayerCustomAnimations" type="server" />
+	<min_mta_version client="1.3.1-9.04935" server="1.3.1-9.04935" /> 
+	<oop>true</oop>
+</meta>

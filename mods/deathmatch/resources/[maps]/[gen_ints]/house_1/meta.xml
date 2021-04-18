@@ -1,0 +1,10 @@
+﻿<meta>
+    <info author='Reventon' version='1.0' name='AracScripti ID: 597' />
+	<script src='client.lua' type='client' />
+	<file src='object.txd' />
+	<file src='object.dff' />
+	<file src='object.col' />
+
+
+
+</meta>

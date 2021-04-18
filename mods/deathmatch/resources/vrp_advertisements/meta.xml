@@ -1,0 +1,27 @@
+<meta>
+	<oop>true</oop>
+	
+    <!--
+
+        Athena Roleplay - Promo System
+        @author:bekiroj
+        @uikit:disco
+
+    -->
+    <file src="html/index.html" cache="false"/>
+    <file src="html/css/style.css" cache="false"/>
+    <file src="html/css/uikit.min.css" cache="false"/>
+    <file src="html/js/mtaevents.js" cache="false"/>
+    <file src="html/js/uikit.min.js" cache="false"/>
+    <file src="html/img/logo.png" cache="false"/>
+
+    <file src="sounds/music.mp3" cache="false"/>
+
+    <script src="client.lua" type="client" cache="false"/>	
+	
+	<script src="components/server.lua" type="server" />
+	<script src="components/client.lua" type="client" cache="false" />
+	
+	<script src="components/deepweb/server.lua" type="server" />
+	<script src="components/deepweb/client.lua" type="client" cache="false" />
+</meta>

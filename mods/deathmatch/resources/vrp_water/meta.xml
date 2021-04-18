@@ -1,0 +1,19 @@
+<meta> 
+	<info name="ProjectE - [Effects] Water" author="foreiger26" version="rc0.3" type="misc"/>
+
+	<oop>true</oop>
+
+	<!-- 
+		@shade.lua
+	-->
+	<script src="shade.lua" type="client" cache="false"/>
+
+	<!-- 
+		@components shade_instance
+	-->
+		<file src="components/dds/cube_env256.dds"/>
+		<file src="components/dds/smallnoise3d.dds"/>
+        
+        <file src="components/shader/mta-helper.fx"/>
+        <file src="components/shader/water.fx"/>
+</meta>

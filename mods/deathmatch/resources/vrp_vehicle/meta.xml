@@ -1,0 +1,72 @@
+<meta>
+    <oop>true</oop>
+
+    <!-- 
+
+     -> @author: bekiroj
+		
+    -->
+	
+    <script src="packages/classlib.lua" type="shared"/>
+    <script src="packages/async.lua" type="shared"/>
+    <script src="packages/encrypt.lua" type="shared"/>
+    <script src="packages/json.lua" type="server"/>
+    <script src="packages/webwindow.lua" type="client"/>
+    <script src="packages/frameweb.lua" type="client"/>
+    <script src="packages/webuimanager.lua" type="client"/>
+
+    <script src="shared.lua" type="server" />
+    <script src="shared.lua" type="client" />
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" cache="false" />
+
+    <script src="components/donateblock.lua" type="server" />
+
+    <script src="tax/tax.lua" type="server"/>
+	<script src="tax/tax_npc/server.lua" type="server"/>
+	<script src="tax/tax_npc/client.lua" type="client" cache="false"/>
+
+    <file src="components/sound/engine.mp3" />
+    <file src="components/sound/engineoff.mp3" />
+    <export function="openVehicleDoorGUI" type="client" />
+	<export function="getVehicleRPM" type="client" />
+	<export function="getVehicleGear" type="client" />
+	<export function="toggleEngines" type="client" />
+    <export function="requestInventory" type="client" />
+    <export function="lockUnlock" type="client" />
+    <export function="openMechanicWindow" type="client" />
+    <export function="toggleRamp" type="client" />
+    <export function="fLook" type="client" />
+    <export function="fDoorControl" type="client" />
+    <export function="fStretcher" type="client" />
+    <export function="fRespawn" type="client" />
+    <export function="fTextures" type="client" />
+    <export function="fillFuelTank" type="client" />
+    <export function="saveVehicle" type="server"/>
+    <export function="saveVehicleMods" type="server"/>
+    <export function="isVehicleWindowUp" type="server" />
+    <export function="hasVehicleWindows" type="server" />
+    <export function="hasVehicleRoof" type="server" />
+    <export function="hasVehiclePlates" type="server" />
+    <export function="isVehicleWindowUp" type="client" />
+    <export function="hasVehicleWindows" type="client" />
+    <export function="hasVehicleRoof" type="client" />
+    <export function="hasVehiclePlates" type="client" />
+    <export function="isVehicleImpounded" type="client" />
+    <export function="hasVehicleEngine" type="client" />
+    <export function="hasVehicleLights" type="client" />
+    <export function="createShopVehicle" type="server" />
+    <export function="clearCharacterName" type="server" />
+    <export function="getCharacterName" type="server" />
+    <export function="getCharacterName" type="server" />
+    <export function="reloadVehicle" type="server" http="true" />
+    <export function="loadOneVehicle" type="server" />
+    <export function="addSafe" type="server" />
+    <export function="getSafe" type="server" />
+    <export function="getRandomVariant" type="server" />
+    <export function="isValidVariant" type="server" />    
+    <export function="isActive" type="client" />
+    <export function="isActive" type="server" />
+    <export function="isProtected" type="client" />
+    <export function="isProtected" type="server" />
+</meta>

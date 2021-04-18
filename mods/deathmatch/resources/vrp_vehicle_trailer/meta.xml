@@ -1,0 +1,28 @@
+<meta>
+	<download_priority_group>-10</download_priority_group>
+
+	<script type="shared" src="sourceG.lua" />
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" />
+
+	<export type="server" function="informatePlayer" />
+
+	<file src="files/arrow.png" />
+	<file src="files/cardisc.png" />
+	<file src="files/cardown.png" />
+	<file src="files/carup.png" />
+	<file src="files/tow.png" />
+	<file src="files/impound.png" />
+	<file src="files/winch.png" />
+	<file src="files/couple.mp3" />
+	<file src="files/ratchet.mp3" />
+	<file src="files/rotdown.mp3" />
+	<file src="files/rotup.mp3" />
+	<file src="files/slide.mp3" />
+	<file src="files/winch.mp3" />
+	<file src="files/Roboto.ttf" />
+
+	<script type="client" src="mods/mod.lua" />
+	<file src="mods/443.dff" />
+	<file src="mods/443.txd" />
+</meta>

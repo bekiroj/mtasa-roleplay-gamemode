@@ -1,0 +1,33 @@
+<meta>
+	<min_mta_version server="1.3.4-0.00000" client="1.3.4-9.05731" />
+	
+	<!--Fonts-->
+	<file src="fonts/cambria.ttf" />
+	<file src="fonts/signpainter.ttf" />
+	<file src="fonts/verdana.ttf" />
+		<file src="roboto-bold.ttf" />
+	
+	<script src="draw_s.lua" />
+	
+	<!--HUD Function Scripts-->
+	<script src="dm/displayMessage.lua" 				type="client" cache="false"/>
+	<script src="drawNote/drawNotification.lua" 		type="client" cache="false"/>
+	<script src="drawStat/drawStat.lua" 				type="client" cache="false"/>
+	<script src="drawMissionText/drawMissionText.lua" 	type="client" cache="false"/>
+	
+	<!--HUD Function Exports-->
+	<export function="isCustomHudEnabled" 	type="client" />
+	<export function="showHud" 				type="client" />
+	<export function="dm" 					type="client" />
+	<export function="drawMissionText" 		type="client" />
+	<export function="drawNote" 			type="client" />
+	<export function="drawProgressBar" 		type="client" />
+	<export function="drawStat" 			type="client" />
+	
+	<export function="showHud" 				type="server" />
+	<export function="dm" 					type="server" />
+	<export function="drawMissionText" 		type="server" />
+	<export function="drawNote" 			type="server" />
+	<export function="drawProgressBar" 		type="server" />
+	<export function="drawStat" 			type="server" />
+</meta>

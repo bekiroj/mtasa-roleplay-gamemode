@@ -1,0 +1,157 @@
+<meta>
+	<script src="thread.lua" type="shared"/>
+	<script src="load.lua" type="shared" cache="false" />
+	
+	<script src="moving_c.lua" type="client" cache="false" />
+	<script src="fav_c.lua" type="client" cache="false" />
+
+	<script src="shop_s.lua" type="server" />
+	<script src="shop_c.lua" type="client" cache="false" />
+
+	<script src="cache_s.lua" type="server" />
+	<script src="cache_c.lua" type="client" cache="false" />
+
+	<file src="files/Roboto.ttf"/>
+	<file src="files/buttons2.png"/>
+	<file src="files/folder.png"/>
+	<file src="files/move.png"/>
+	<file src="files/rename.png"/>
+	<file src="files/reset.png"/>
+	<file src="files/rotate.png"/>
+	<file src="files/save.png"/>
+	<file src="files/scale.png"/>
+
+	
+	<file src="mods/armor.dff"/>
+	<file src="mods/armor.txd"/>
+	<file src="mods/armor5.txd"/>
+	<file src="mods/BackPack1.dff"/>
+	<file src="mods/BackPack1.txd"/>
+	<file src="mods/BackPack2.dff"/>
+	<file src="mods/BackPack2.txd"/>
+	<file src="mods/BackPack3.dff"/>
+	<file src="mods/BackPack3.txd"/>
+	<file src="mods/BackPack4.dff"/>
+	<file src="mods/BackPack4.txd"/>
+	<file src="mods/BackPack5.dff"/>
+	<file src="mods/BackPack5.txd"/>
+	<file src="mods/BackPack6.dff"/>
+	<file src="mods/BackPack6.txd"/>
+	<file src="mods/CapTrucker.dff"/>
+	<file src="mods/cross.dff"/>
+	<file src="mods/cross.txd"/>
+	<file src="mods/cross2.txd"/>
+	<file src="mods/cross3.txd"/>
+	<file src="mods/cross4.txd"/>
+	<file src="mods/GlassesType1.dff"/>
+	<file src="mods/GlassesType10.dff"/>
+	<file src="mods/GlassesType11.dff"/>
+	<file src="mods/GlassesType12.dff"/>
+	<file src="mods/GlassesType13.dff"/>
+	<file src="mods/GlassesType14.dff"/>
+	<file src="mods/GlassesType15.dff"/>
+	<file src="mods/GlassesType16.dff"/>
+	<file src="mods/GlassesType17.dff"/>
+	<file src="mods/GlassesType18.dff"/>
+	<file src="mods/GlassesType19.dff"/>
+	<file src="mods/GlassesType2.dff"/>
+	<file src="mods/GlassesType20.dff"/>
+	<file src="mods/GlassesType21.dff"/>
+	<file src="mods/GlassesType22.dff"/>
+	<file src="mods/GlassesType23.dff"/>
+	<file src="mods/GlassesType5.dff"/>
+	<file src="mods/GlassesType6.dff"/>
+	<file src="mods/GlassesType7.dff"/>
+	<file src="mods/GlassesType8.dff"/>
+	<file src="mods/GlassesType9.dff"/>
+	<file src="mods/HardHat1.dff"/>
+	<file src="mods/HardHat1.txd"/>
+	<file src="mods/Hat1.dff"/>
+	<file src="mods/Hat10.dff"/>
+	<file src="mods/Hat2.dff"/>
+	<file src="mods/Hat3.dff"/>
+	<file src="mods/Hat4.dff"/>
+	<file src="mods/Hat5.dff"/>
+	<file src="mods/Hat6.dff"/>
+	<file src="mods/Hat7.dff"/>
+	<file src="mods/Hat8.dff"/>
+	<file src="mods/Hat9.dff"/>
+	<file src="mods/HatBowler1.dff"/>
+	<file src="mods/HatBowler2.dff"/>
+	<file src="mods/HatBowler3.dff"/>
+	<file src="mods/HatBowler4.dff"/>
+	<file src="mods/HatBowler5.dff"/>
+	<file src="mods/HatCool1.dff"/>
+	<file src="mods/HatCool2.dff"/>
+	<file src="mods/HatCool3.dff"/>
+	<file src="mods/HikerBackpack1.dff"/>
+	<file src="mods/HikerBackpack1.txd"/>
+	<file src="mods/Mask1.dff"/>
+	<file src="mods/Mask10.dff"/>
+	<file src="mods/Mask2.dff"/>
+	<file src="mods/Mask3.dff"/>
+	<file src="mods/Mask4.dff"/>
+	<file src="mods/Mask5.dff"/>
+	<file src="mods/Mask6.dff"/>
+	<file src="mods/Mask7.dff"/>
+	<file src="mods/Mask8.dff"/>
+	<file src="mods/Mask9.dff"/>
+	<file src="mods/MatClothes.txd"/>
+	<file src="mods/MatGlasses.txd"/>
+	<file src="mods/MatWatches.txd"/>
+	<file src="mods/MotorcycleHelmet1.dff"/>
+	<file src="mods/MotorcycleHelmet2.dff"/>
+	<file src="mods/MotorcycleHelmet3.dff"/>
+	<file src="mods/MotorcycleHelmet4.dff"/>
+	<file src="mods/NeckLace.dff"/>
+	<file src="mods/NeckLace1.txd"/>
+	<file src="mods/NeckLace2.txd"/>
+	<file src="mods/NeckLace3.txd"/>
+	<file src="mods/NeckLace4.txd"/>
+	<file src="mods/NeckLace5.txd"/>
+	<file src="mods/NeckLace6.txd"/>
+	<file src="mods/NeckLace7.txd"/>
+	<file src="mods/NeckLace8.txd"/>
+	<file src="mods/NeckLace9.txd"/>
+	<file src="mods/polgi.txd"/>
+	<file src="mods/SkullyCap1.dff"/>
+	<file src="mods/SkullyCap2.dff"/>
+	<file src="mods/SkullyCap3.dff"/>
+	<file src="mods/SWATHelmet1.dff"/>
+	<file src="mods/SWATHelmet1.txd"/>
+	<file src="mods/TheParrot1.dff"/>
+	<file src="mods/TheParrot1.txd"/>
+	<file src="mods/trafficvest.dff"/>
+	<file src="mods/trafficvest.txd"/>
+	<file src="mods/trafficvest10.txd"/>
+	<file src="mods/trafficvest11.txd"/>
+	<file src="mods/trafficvest12.txd"/>
+	<file src="mods/trafficvest13.txd"/>
+	<file src="mods/trafficvest2.txd"/>
+	<file src="mods/trafficvest3.txd"/>
+	<file src="mods/trafficvest4.txd"/>
+	<file src="mods/trafficvest5.txd"/>
+	<file src="mods/trafficvest6.txd"/>
+	<file src="mods/trafficvest7.txd"/>
+	<file src="mods/trafficvest8.txd"/>
+	<file src="mods/trafficvest9.txd"/>
+	<file src="mods/WatchType1.dff"/>
+	<file src="mods/WatchType10.dff"/>
+	<file src="mods/WatchType11.dff"/>
+	<file src="mods/WatchType12.dff"/>
+	<file src="mods/WatchType13.dff"/>
+	<file src="mods/WatchType14.dff"/>
+	<file src="mods/WatchType15.dff"/>
+	<file src="mods/WatchType2.dff"/>
+	<file src="mods/WatchType3.dff"/>
+	<file src="mods/WatchType4.dff"/>
+	<file src="mods/WatchType5.dff"/>
+	<file src="mods/WatchType6.dff"/>
+	<file src="mods/WatchType7.dff"/>
+	<file src="mods/WatchType8.dff"/>
+	<file src="mods/WatchType9.dff"/>
+	<file src="mods/WitchesHat1.dff"/>
+	<file src="mods/WitchesHat1.txd"/>
+
+	<oop>true</oop>
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+	<info author="bekiroj" description="Sağ Tık Menüsü" type="script" version="2.0" />
+	
+	<script src="client.lua" type="client" cache="false" />
+	
+	<file src="images/nokta.png" type="client" />
+	<file src="images/cizgi.png" type="client" />
+	<file src="images/logo.png" type="client" />
+	
+	<export function="create" type="client" />
+	<export function="destroy" type="client" />
+	<export function="addRow" type="client" />
+	<export function="addrow" type="client" />
+</meta>

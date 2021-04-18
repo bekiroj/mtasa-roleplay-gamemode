@@ -1,0 +1,22 @@
+﻿<meta>
+	<oop>true</oop>
+
+	<script src = "client.lua" type = "client" cache="false" />
+	<script src = "server.lua" type = "server" />
+
+	<file src = "files/audi.txd" download = "false" model = "529" />
+	<file src = "files/audi.dff" download = "false" model = "529" /> 
+
+	<file src = "files/range.txd" download = "false" model = "490" />
+	<file src = "files/range.dff" download = "false" model = "490" /> 
+
+	<file src = "files/amg.txd" download = "false" model = "602" />
+	<file src = "files/amg.dff" download = "false" model = "602" /> 
+
+	<file src = "files/masserati.txd" download = "false" model = "402" />
+	<file src = "files/masserati.dff" download = "false" model = "402" /> 
+
+	<file src = "files/bmw.txd" download = "false" model = "412" />
+	<file src = "files/bmw.dff" download = "false" model = "412" /> 
+
+</meta>

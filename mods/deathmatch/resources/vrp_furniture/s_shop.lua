@@ -1,0 +1,5 @@
+addEvent("furniture:takeMoney",true)
+addEventHandler("furniture:takeMoney",root,function(player,money)
+	exports["vrp_global"]:takeMoney(player,money)
+	outputChatBox("[!]#ffffff Tebrikler, başarıyla mobilyayı satın aldınız!",player,0,255,0,true)
+end)

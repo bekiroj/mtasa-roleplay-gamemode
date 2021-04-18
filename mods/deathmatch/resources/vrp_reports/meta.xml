@@ -1,0 +1,26 @@
+<meta>
+	<file src="index.html" />
+	<file src="js/mtaevents.js" />
+	<file src="js/uikit.min.js" />
+	<file src="css/style.css" />
+	<file src="css/uikit.min.css" />
+
+	<script src="s_reports.lua"/>
+    <script src="c_reports.lua" type="client" cache="false" />
+	
+	<file src="sound.mp3"/>
+
+	<script src="reportinfo/server.lua" type="server"/>
+    <script src="reportinfo/client.lua" type="client" cache="false" />
+	
+	<script src="s_external_report_box.lua" type="server"/>
+    <script src="c_external_report_box.lua" type="client" cache="false" />
+	
+	<script src="s_top_right_box.lua" type="server"/>
+	<script src="c_top_right_box.lua" type="client" cache="false"/>
+	
+	<script src="g_reports.lua" type="shared"/>
+	
+	<export function="showToAdminPanel" type="server" />
+	<export function="reportLazyFix" type="server"/>
+</meta>

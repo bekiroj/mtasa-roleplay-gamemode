@@ -1,0 +1,4 @@
+<meta>
+	<oop>true</oop>
+	<script src="sourceS.lua" type="server" />
+</meta>

@@ -1,0 +1,18 @@
+<meta>
+
+	<!-- @bekiroj vehicle lifts -->
+	
+    <script src="creation.lua"></script>
+    <script src="main.lua"></script>
+    <script src="replace.lua" type="client" cache="false"></script>
+	
+	<file src="models/liftposts.dff"></file>
+	<file src="models/liftposts.col"></file>
+	<file src="models/ramps.col"></file>
+	<file src="models/ramps.dff"></file>
+	<file src="models/lifts.txd"></file>
+	
+	<file src="models/stand.txd"></file>
+	<file src="models/stand.dff"></file>
+	<file src="models/stand.col"></file>
+</meta>

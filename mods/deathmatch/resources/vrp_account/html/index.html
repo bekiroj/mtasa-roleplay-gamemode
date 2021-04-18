@@ -1,0 +1,95 @@
+<html class=" -webkit-">
+   <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet prefetch" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/framework.css">
+      <link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+      <div class="box" id="login" style="display: block; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputholder">
+               <div class="inputicon" style="background: url(images/user.png) no-repeat scroll;"></div>
+               <input type="text" placeholder="Kullanıcı Adı" id="Lusername" v-model="enteredUsername" onchange="inputChanged()" required="">
+            </div>
+            <div class="inputholder">
+               <div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+               <input type="password" placeholder="Şifre" id="Lpassword" v-model="enteredPassword" onchange="inputChanged()" required="">
+            </div>
+
+            <div class="buttongroup">
+               <button class="btn" onclick="logIn(); return false;">Giriş</button>
+               <button class="btn red to" data-to="register">Kayıt</button>
+            </div>
+         </div>
+      </div>
+      <div class="box" id="register" style="display: none; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputicon" style="background: url(images/user.png) no-repeat scroll;"></div>
+            <input type="text" placeholder="Kullanıcı Adı" id="Rusername" required="">
+            <div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+            <input type="password" placeholder="Şifre" id="Rpassword">
+            <div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+            <input type="password" placeholder="Şifre X2" id="Rpassword2">
+            <div class="inputicon" style="background: url(images/mail.png) no-repeat scroll;"></div>
+            <input type="email" placeholder="Email" id="Remail">
+            <button class="btn" onclick="startRegister(); return false;">Kayıt Ol</button>
+            <button class="btn red to" data-to="login"><i class="fa fa-arrow-left"></i> Geri Dön</button>
+         </div>
+      </div>
+      <div class="box" id="recovery" style="display: none; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputicon" style="background: url(images/user.png) no-repeat scroll;"></div>
+            <input type="text" placeholder="Kullanıcı Adı" id="Rrusername" required="">
+            <div class="inputicon" style="background: url(images/phone.png) no-repeat scroll;"></div>
+            <input type="text" placeholder="Telefon Numarası" id="Rrnumber" required="">
+            <button class="btn" onclick="startRecover(); return false;">Hesabımı Kurtar</button>
+            <button class="btn red to" data-to="login"><i class="fa fa-arrow-left"></i> Geri Dön</button>
+         </div>
+      </div>
+      <div class="box" id="recovery2" style="display: none; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputicon" style="background: url(images/sms.png) no-repeat scroll;"></div>
+            <input type="text" placeholder="Kod" id="Rrusername2" required="">
+            <button class="btn" onclick="checkRecoveryCode(); return false;">Kodu Onayla</button>
+         </div>
+      </div>
+      <div class="box" id="recovery3" style="display: none; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div class="form-field">
+            <div class="inputicon" style="background: url(images/key.png) no-repeat scroll;"></div>
+            <input type="password" placeholder="Yeni Şifre" id="Lpassword2" v-model="enteredPassword" required="">
+            <button class="btn" onclick="changeAccountRecoveryPassword(); return false;">Şifreyi Değiştir</button>
+         </div>
+      </div>
+      <div class="quiz" id="apps" style="margin-top: -130px;">
+         <img src="images/logo-white.png" width="256">
+         <div class="question"></div>
+         <button class="btn red" id="questSend" onclick="checkQuestions();"><i class="fa fa-arrow-right"></i> ileri</button>
+      </div>
+      <div class="box" id="banned" style="display: none; z-index: 1;">
+         <img src="images/logo-white.png" class="logo">
+         <div style="margin-top: 30px; margin-left: -100px;">
+            <div class="accountBox" style="height: 190px;">
+               <br>
+               <span id="banDetails">Sunucudan yasaklandınız!</span>
+               <br>
+               <span>Bakiyeniz: <span id="playerBalance">0</span>TL<br> Yasağınızı kaldırmak istiyorsanız 20 TL bakiyeye ihtiyacınız var. <br>Bakiye yüklemek için: <a href="https://inceptionroleplay.com/market">https://inceptionroleplay.com/market</a></span>
+               <br>
+               <button class="btn red" id="questSend" onclick="mta.triggerEvent('unbanPlayer');"><i class="fa fa-arrow-right"></i> Bakiyeden Kes ve Yasağı Aç (20 TL)</button>
+               <div>
+               </div>
+            </div>
+            <script src="js/jquery.min.js"></script>
+            <script src="js/index.js"></script>
+            <script src="js/framework.js"></script>
+            <script src="js/mtaevents.js"></script>
+            <script src="js/keys.js"></script>
+         </div>
+      </div>
+   </body>
+</html>

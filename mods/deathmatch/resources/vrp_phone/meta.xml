@@ -1,0 +1,167 @@
+<meta>
+
+	<script src="frameworks/framework.lua" type="server"/>
+	<script src="frameworks/json.lua" type="server"/>
+
+	<script src="shared.lua" type="client" cache="false"/>
+	
+	<script src="s_public_phones.lua" type="server" />
+	<script src="hotlines/s_hotlines.lua" type="server" />
+	<script src="s_gui_phone.lua" type="server" />
+	<script src="s_ads.lua" type="server" />
+
+	<file src="anims/ped.ifp"/>
+
+	<script src="phone_core_s.lua" type="server" />
+	<script src="phone_core_c.lua" type="client" cache="false"/>
+	
+	<script src="safari/phone_safari_c.lua" type="client" cache="false"/>
+	<script src="lsbank/phone_lsbank_c.lua" type="client" cache="false"/>
+	<script src="uber/phone_uber_c.lua" type="client" cache="false"/>
+
+	<script src="dial/phone_dial_c.lua" type="client" cache="false"/>
+	<script src="dial/phone_dial_s.lua" type="server" />
+
+	<script src="contacts/phone_contacts_c.lua" type="client" cache="false"/>
+	
+	<script src="contacts/phone_contacts_new_s.lua" type="server" />
+	<script src="contacts/phone_contacts_new_c.lua" type="client" cache="false"/>
+
+	<script src="contacts/phone_contacts_details_s.lua" type="server" />
+	<script src="contacts/phone_contacts_details_c.lua" type="client" cache="false"/>
+
+	<script src="history/phone_history_s.lua" type="server" />
+	<script src="history/phone_history_c.lua" type="client" cache="false"/>
+
+	<script src="twitter/phone_twitter_s.lua" type="server" />
+	<script src="twitter/phone_twitter_c.lua" type="client" cache="false"/>
+	
+	<script src="logs/phone_logs_s.lua" type="server" />
+	<script src="logs/phone_logs_c.lua" type="client" cache="false"/>
+
+	<script src="hotlines/phone_hotlines_g.lua" type="server" />
+	<script src="hotlines/phone_hotlines_g.lua" type="client" cache="false"/>
+	<script src="hotlines/phone_hotlines_c.lua" type="client" cache="false"/>
+
+	<script src="functions/phone_functions_g.lua" type="server" />
+	<script src="functions/phone_functions_g.lua" type="client" cache="false"/>
+
+	<script src="apps/phone_apps_c.lua" type="client" cache="false"/>
+	
+	<script src="sms/phone_sms_s.lua" type="server" />
+	<script src="sms/phone_sms_c.lua" type="client" cache="false"/>
+
+	<script src="whatsapp/phone_whatsapp_s.lua" type="server"/>
+	<script src="whatsapp/phone_whatsapp_c.lua" type="client" cache="false"/>
+
+	<script src="settings/phone_settings_s.lua" type="server" />
+	<script src="settings/phone_settings_c.lua" type="client" cache="false"/>
+
+	<script src="g_debug.lua" type="server" />
+	<script src="g_debug.lua" type="client" cache="false"/>
+
+	<file src="sounds/dispatch.mp3" />
+	<file src="sounds/dialing_tone.mp3" />
+	<file src="sounds/hangup.mp3" />
+	<file src="sounds/busy_tone.mp3" />
+	<file src="sounds/invalid_tone.mp3" />
+	<file src="sounds/touch_tone.mp3" />
+
+	<file src="sounds/ringtones/viberate.mp3" />
+	<file src="sounds/ringtones/apple_ring.mp3" />
+	<file src="sounds/ringtones/google.mp3" />
+	<file src="sounds/ringtones/iphone_5s.mp3" />
+	<file src="sounds/ringtones/iphone_6.mp3" />
+	<file src="sounds/ringtones/minion_ring_ring.mp3" />
+	<file src="sounds/ringtones/perfect_ring_tone.mp3" />
+	<file src="sounds/ringtones/sending_you_an_sms.mp3" />
+	<file src="sounds/ringtones/sms.mp3" />
+	<file src="sounds/ringtones/sms_new.mp3" />
+	<file src="sounds/ringtones/sony_xperia_z3.mp3" />
+	<file src="sounds/ringtones/sweetest_tone_ever.mp3" />
+	<file src="sounds/ringtones/turn_down_for_what.mp3" />
+	<file src="sounds/ringtones/vertu_new_tone.mp3" />
+	<file src="sounds/ringtones/winggle_wiggle.mp3" />
+
+	<file src="sounds/beeps/0.mp3" />
+	<file src="sounds/beeps/1.mp3" />
+	<file src="sounds/beeps/2.mp3" />
+	<file src="sounds/beeps/3.mp3" />
+	<file src="sounds/beeps/4.mp3" />
+	<file src="sounds/beeps/5.mp3" />
+	<file src="sounds/beeps/6.mp3" />
+	<file src="sounds/beeps/7.mp3" />
+	<file src="sounds/beeps/8.mp3" />
+	<file src="sounds/beeps/9.mp3" />
+	
+	<file src="images/bg/1.png"/>
+	<file src="images/pane.png"/>
+	<file src="images/bg/2.png"/>
+	<file src="images/iphone_front_status_bar.png"/>
+	<file src="images/iphone_front_status_bar1.png"/>
+	<file src="images/iphone_front_settings.png"/>
+	<file src="images/iphone_front_lsbank.png"/>
+	<file src="images/iphone_front_lsbank_logged.png"/>
+	<file src="fonts/rbold.ttf"/>
+	<file src="fonts/regular.ttf"/>
+	<file src="fonts/rregular.ttf"/>
+
+	<file src="images/whatsapp.png"/>
+	<file src="images/twitter.png"/>
+	<file src="images/iphone_front_twitter.png"/>
+	<file src="images/iphone_front_twitter_icon.png"/>
+	<file src="images/uber.png"/>
+	<file src="images/iphone_front_uber.png"/>
+	<file src="images/iphone_front_uberadmin.png"/>
+	<file src="images/iphone_front_safari.png"/>
+	<file src="images/iphone_front_whatsapp.png"/>
+	<file src="images/iphone_front_whatsapp_inmessage.png"/>
+	<file src="images/iphone_front.png" />
+	<file src="images/iphone_front_white.png" />
+	<file src="images/iphone_setup_1.png" />
+	<file src="images/iphone_setup_2.png" />
+	<file src="images/iphone_setup_3.png" />
+	<file src="images/history.png" />
+	<file src="images/contacts.png" />
+	<file src="images/messages.png" />
+	<file src="images/lsbank.png" />
+	<file src="images/settings.png" />
+	<file src="images/call.png" />
+	<file src="images/sms.png" />
+	<file src="images/safari.png" />
+	<file src="images/save.png" />
+	<file src="images/incoming.png" />
+	<file src="images/outgoing.png" />
+	<file src="images/missed.png" />
+	<file src="images/arrow_right.png" />
+	<file src="images/arrow_left.png" />
+	<file src="images/arrow_right_white.png" />
+	<file src="images/arrow_left_white.png" />
+	<file src="images/hotlines.png" />
+	<file src="images/emails.png" />
+	<file src="images/flappy-bird.png" />
+	<file src="images/sms_bubble_body_to.png" />
+	<file src="images/sms_bubble_body_from.png" />
+	<file src="images/sms_bubble_head.png" />
+	<file src="images/sms_bubble_tail.png" />
+	<file src="images/sms_send.png" />
+	<file src="images/camera.png" />
+
+	<script src="flappy_bird/cFlappy.lua" type="client" cache="false"/>
+	<script src="flappy_bird/cFlappyBirdGame.lua" type="client" cache="false"/>
+	<script src="flappy_bird/cSound.lua" type="client" cache="false"/>
+	<script src="flappy_bird/cTube.lua" type="client" cache="false"/>
+	<script src="flappy_bird/cFlappyUI.lua" type="client" cache="false"/>
+	
+	<script src="flappy_bird/cStart.lua" type="client" cache="false"/>
+	
+	<file src="flappy_bird/files/images/atlas.png" />
+	
+	<file src="flappy_bird/files/sounds/sfx_die.ogg" />
+	<file src="flappy_bird/files/sounds/sfx_hit.ogg" />
+	<file src="flappy_bird/files/sounds/sfx_point.ogg" />
+	<file src="flappy_bird/files/sounds/sfx_swooshing.ogg" />
+	<file src="flappy_bird/files/sounds/sfx_wing.ogg" />
+	<!--<export function="sendSMS" type="server" />-->
+	<oop>true</oop>
+</meta>

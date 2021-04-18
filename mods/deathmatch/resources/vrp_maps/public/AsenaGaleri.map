@@ -1,0 +1,6 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgncarshow1) (1)" breakable="true" interior="0" alpha="255" model="7526" doublesided="false" scale="1" dimension="0" posX="2146.6001" posY="-2168.2" posZ="13.3" rotX="0" rotY="2" rotZ="315"></object>
+    <removeWorldObject id="removeWorldObject (rdwarhus) (1)" radius="17.2141" interior="0" model="3622" lodModel="3687" posX="2162.8516" posY="-2159.75" posZ="15.67188" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (rdwarhus) (2)" radius="17.2141" interior="0" model="3622" lodModel="3687" posX="2150.1953" posY="-2172.3594" posZ="15.67188" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (rdwarhus) (3)" radius="17.2141" interior="0" model="3622" lodModel="3687" posX="2135.7422" posY="-2186.4453" posZ="15.67188" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

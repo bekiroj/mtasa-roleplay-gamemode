@@ -1,0 +1,131 @@
+<meta>
+    <oop>true</oop>
+    
+    <!--
+	@author:bekiroj
+ -->
+    
+    <script src="packages/classlib.lua" type="shared" />
+    <script src="packages/async.lua" type="shared" />
+    
+    <script src="client/c_weapon_creator.lua" type="client" cache="false" />
+    
+    <script src="client/c_ped_voices.lua" type="client" cache="false" />
+    
+    <script src="client/c_check.lua" type="client" cache="false" />
+    <script src="server/s_check.lua" type="server" />
+    
+    <script src="server/s_teleport.lua" type="server" />
+    
+    <script src="client/c_superman.lua" type="client" cache="false" />
+    <script src="server/s_superman.lua" type="server" />
+
+    <script src="client/c_overlay.lua" type="client" cache="false" />
+
+    <script src="client/c_fly.lua" type="client" cache="false" />
+    <script src="server/s_fly.lua" type="server" />
+    
+    <script src="server/s_ck.lua" type="server" />
+    
+    <script src="server/s_pos.lua" type="server" />
+    
+    <script src="server/s_resource.lua" type="server" />
+    
+    <script src="shared/g_history.lua" type="server" />
+    <script src="shared/g_history.lua" type="client" cache="false" />
+    
+    <script src="server/s_recon.lua" type="server" />
+    <script src="client/c_recon.lua" type="client" cache="false" />
+    
+    <script src="server/s_spec.lua" type="server" />
+    <script src="client/c_spec.lua" type="client" cache="false" />
+    
+    <script src="server/s_others.lua" type="server" />
+    
+    <script src="server/s_realbigears.lua" type="server" />
+    
+    <script src="server/s_licenses.lua" type="server" />
+    
+    <script src="server/s_manager.lua" type="server" />
+    <script src="client/c_manager.lua" type="client" cache="false" />
+    <script src="shared/g_manager.lua" type="server" />
+    <script src="shared/g_manager.lua" type="client" cache="false" />
+    
+    <script src="client/c_jail.lua" type="client" cache="false" />
+    <script src="server/s_jail.lua" type="server" />
+    
+    <script src="client/c_lounge.lua" type="client" cache="false" />
+    
+    <script src="client/c_commands.lua" type="client" cache="false" />
+    <script src="server/s_commands.lua" type="server" />
+    
+    <file src="components/Roboto.ttf" />
+    <file src="components/Roboto-Regular.ttf" />
+    <file src="components/sounds/jailsound.mp3" />
+    <file src="components/sounds/nudge.wav" />
+    <file src="components/sounds/pmsound.wav" />
+    <file src="components/sounds/woman.mp3" />
+    <file src="components/assets/search.png" />
+    <file src="components/assets/weapons/ammo.png" />
+    <file src="components/assets/weapons/gun.png" />
+    <file src="components/aduty/r1.png" />
+    <file src="components/aduty/1.png" />
+    <file src="components/aduty/2.png" />
+    <file src="components/aduty/3.png" />
+    <file src="components/aduty/4.png" />
+    <file src="components/aduty/5.png" />
+    <file src="components/aduty/6.png" />
+    <file src="components/aduty/7.png" />
+    <file src="components/aduty/8.png" />
+    <file src="components/aduty/9.png" />
+    
+    <settings>
+        <setting name="*fist" value="disabled" />
+        <setting name="*brassknuckle" value="2" />
+        <setting name="*golfclub" value="0" />
+        <setting name="*nightstick" value="0" />
+        <setting name="*knife" value="0" />
+        <setting name="*bat" value="0" />
+        <setting name="*shovel" value="0" />
+        <setting name="*poolstick" value="0" />
+        <setting name="*katana" value="2" />
+        <setting name="*chainsaw" value="0" />
+        <setting name="*dildo" value="2" />
+        <setting name="*dildo2" value="2" />
+        <setting name="*vibrator" value="2" />
+        <setting name="*vibrator2" value="2" />
+        <setting name="*flower" value="2" />
+        <setting name="*cane" value="0" />
+        <setting name="*grenade" value="2" />
+        <setting name="*teargas" value="2" />
+        <setting name="*molotov" value="2" />
+        <setting name="*colt45" value="17" />
+        <setting name="*silenced" value="17" />
+        <setting name="*deagle" value="7" />
+        <setting name="*shotgun" value="10" />
+        <setting name="*sawed-off" value="20" />
+        <setting name="*combatshotgun" value="30" />
+        <setting name="*uzi" value="50" />
+        <setting name="*mp5" value="30" />
+        <setting name="*ak-47" value="30" />
+        <setting name="*m4" value="50" />
+        <setting name="*tec-9" value="50" />
+        <setting name="*rifle" value="10" />
+        <setting name="*sniper" value="5" />
+        <setting name="*rocketlauncher" value="5" />
+        <setting name="*spraycan" value="0" />
+        <setting name="*fireextinguisher" value="0" />
+        <setting name="*camera" value="0" />
+        <setting name="*nightvision" value="2" />
+        <setting name="*infrared" value="2" />
+        <setting name="*maxAmountOfAmmopacks" value="200" />
+        <setting name="*maxAmountOfWeapons" value="100" />
+    </settings>
+    
+    <export function="getAmmoPerClip" type="server" />
+    <export function="canPlayerAccessStaffManager" type="server" />
+    <export function="canPlayerAccessStaffManager" type="client" />
+    <export function="toggleRecon" type="client" />
+    <export function="addAdminHistory" type="server" http="true" />
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

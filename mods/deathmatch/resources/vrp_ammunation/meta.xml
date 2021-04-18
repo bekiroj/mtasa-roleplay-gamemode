@@ -1,0 +1,5 @@
+<meta>
+	<oop>true</oop>
+	<script src="ammunation.lua" type="server"/>
+	<script src="handcuff.lua" type="server"/>
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+	<info author="bekiroj" type="script" description="Valhalla Pool System"/>
+
+	<script src="core/server-side.lua" type="server"/>
+	<script src="core/shared.lua" type="shared" cache="false" />
+
+	<export function="allocateElement" type="server"/>
+	<export function="getPoolElementsByType" type="server"/>
+	<export function="getElement" type="server"/>
+	<export function="getServerSyntax" type="client"/>
+	<export function="getServerSyntax" type="server"/>
+	<export function="getServerMoneyType" type="client"/>
+	<export function="getServerMoneyType" type="server"/>
+</meta>

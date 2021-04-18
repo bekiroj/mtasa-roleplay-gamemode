@@ -1,0 +1,3 @@
+Karavan = {
+	carid = 611
+}

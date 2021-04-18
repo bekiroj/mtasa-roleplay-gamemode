@@ -1,0 +1,18 @@
+<meta>
+	<info name="inception roleplay - labelstats" author="foreiger26" version="rc0.3" type="misc"/>
+
+	<oop>true</oop>
+
+	<!-- 
+		@classlib.lua
+		@async.lua
+		@author:sbx320
+	-->
+	<script src="packages/classlib.lua" type="shared"/>
+
+	<!-- 
+		@create.lua
+		@desc: oluşturucu sınıf
+	-->
+	<script src="create.lua" type="client"/>
+</meta>

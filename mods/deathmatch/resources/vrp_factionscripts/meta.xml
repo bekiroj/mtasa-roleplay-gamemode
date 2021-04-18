@@ -1,0 +1,66 @@
+<meta>
+	<script src="global.lua" type="shared" />
+	<script src="helicopters.lua" type="server" />
+	<script src="other_s.lua" type="server" />
+	<!-- Siren Script -->
+	<script src="pd/siren_s.lua" type="server" />
+	<script src="pd/siren_c.lua" type="client" cache="false" />
+	<!-- Headlight Script -->
+	<script src="pd/headlight_s.lua" type="server" />
+	<script src="pd/headlight_c.lua" type="client" cache="false" />
+	<!-- Callsign Script -->
+	<script src="pd/callsign_c.lua" type="client" cache="false" />
+	<script src="pd/callsign_s.lua" type="server" />
+	<!-- Tog soeed Script -->
+	<script src="pd/s_speedcam.lua" type="server" />
+	<!-- Aracat Script -->
+	<script src="pd/s_aracat.lua" type="server" />
+	<!-- District Script -->
+	<script src="pd/district_s.lua" type="server" />
+	<script src="pd/district_c.lua" type="client" cache="false" />
+	<!-- Fastrope Script -->
+	<script src="pd/fastrope_s.lua" type="server" />
+	<script src="pd/fastrope_c.lua" type="client" cache="false" />
+	<!-- LSPD Map -->
+	<map src="pd/maps/LSPD-exterior.map" dimension="0" />
+	<map src="pd/maps/detective.map" dimension="0" />
+	<map src="pd/maps/lscsd.map" dimension="10" />
+	<map src="pd/maps/lspdinterior.map" dimension="10" />
+	<script src="pd/maps/lspd_s.lua" type="server" />
+	<script src="pd/maps/lspdex_s.lua" type="server" />
+	<!-- Deagle Script -->
+	<script src="pd/deagle_s.lua" type="server" />
+	<script src="pd/deagle_c.lua" type="client" cache="false" />
+	<!-- Beanbag Script -->
+	<script src="pd/beanbag_s.lua" type="server" />
+	<script src="pd/beanbag_c.lua" type="client" cache="false" />
+	<!-- Strobes Script -->
+	<script src="pd/strobe_s.lua" type="server" />
+	<script src="pd/strobe_c.lua" type="client" cache="false" />
+	<file src="pd/siren.wav" />
+	<script src="pd/serit_c.lua" type="client" cache="false"/>
+	<script src="pd/serit_s.lua" type="server"/>
+	<file src="pd/policeline.png"/>
+	<script src="pd/telsiz_c.lua" type="client" />
+	<script src="pd/telsiz_s.lua" type="server" />
+    <file src="pd/telsizsesi.mp3"/>
+    <file src="pd/panic.mp3"/>
+	 <!-- LSCSD Script -->
+	<script src="lscsd/telsiz_s.lua" type="server" />
+	 <!-- MD Script -->
+	<script src="md/telsiz_s.lua" type="server"></script>
+	<script src="md/server.lua" type="server" />
+
+	<script src="destek/destek_s.lua" type="server"/>
+	<script src="destek/destek_c.lua" type="client" cache="false"/>
+	<file src="destek/Roboto.ttf" />
+	<file src="destek/destek.png" />
+	<file src="destek/takip.png" />
+
+	<!-- Uber Script -->
+	<script src="uber/uber_s.lua" type="server" />
+	<script src="uber/uber_c.lua" type="client" cache="false" />
+	
+	<oop>true</oop>
+	<min_mta_version server="1.3.4-0.00000" client="1.3.4-0.00000"/>
+</meta>

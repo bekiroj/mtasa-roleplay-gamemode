@@ -1,0 +1,5 @@
+<meta>
+	<script src="s_spikes.lua" type="server"/>
+	<script src="c_spikes.lua" type="client"/>
+	<min_mta_version client="1.5.5-9.14060" server="1.5.5-9.14060" />
+</meta>

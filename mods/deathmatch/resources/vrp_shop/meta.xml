@@ -1,0 +1,40 @@
+<meta>
+	<!-- @bekiroj shop system -->
+		
+    <script src="g_upgrades.lua" type="server" />
+    <script src="g_upgrades.lua" type="client" cache="false" />
+    
+    <script src="g_shopinfo.lua" type="server" />
+    <script src="g_shopinfo.lua" type="client" cache="false" />
+    
+    <script src="s_generalshop_system.lua" type="server" />
+    <script src="c_generalshop_system.lua" type="client" cache="false" />
+    
+    <script src="c_ped_click.lua" type="client" cache="false" />
+    
+    <script src="c_custom_shop.lua" type="client" cache="false" />
+    <script src="s_custom_shop.lua" type="server" />
+
+    <script src="s_command_shop.lua" type="server" />
+    
+    <script src="s_anti-cheat.lua" type="server" />
+    
+    <file src="files/sounds/playCollectMoneySound.mp3" />
+    <file src="files/sounds/playPayWageSound.mp3" />
+    <file src="files/sounds/playBuySound.mp3" />
+	
+    <file src="files/fonts/seguisb.ttf" />
+    <settings>
+        <setting name="*warningDebtAmount" value="[400]" />
+        <setting name="*limitDebtAmount" value="[800]" />
+        <setting name="*wageRate" value="[5]" />
+        <setting name="*updateWageInterval" value="[60]" />
+        <setting name="*profitRate" value="[4]" />
+    </settings>
+    
+    <export function="getFittingSkins" type="client" />
+    
+    <export function="getDisabledUpgrades" type="server" />
+    <export function="getDisabledUpgrades" type="client" />
+    <min_mta_version server="1.5.5-9.14060"></min_mta_version>
+</meta>

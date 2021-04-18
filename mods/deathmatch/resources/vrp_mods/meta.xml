@@ -1,0 +1,70 @@
+<meta>
+	<script src="thread.lua" type="shared" />
+	<script src="c_mods_system.lua" type="client" cache="false" />
+	<export function="getModdedSkins" type="client" />
+	
+	<file src="mods/fixes/interior24.col"/>
+	
+	<file src="mods/icons.txd"/>
+	<file src="mods/disabledicon.dff"/>
+		
+	<file src="ls/barrio1_lae.txd"/>
+	<file src="ls/idlewood6_detail.txd"/>
+
+	<file src="mods/objects/wall017.dff"/>
+	<file src="mods/objects/wall045.dff"/>
+	<file src="mods/objects/wall063.dff"/>
+	<file src="mods/objects/wall101.dff"/>
+	<file src="mods/objects/wall017.col"/>
+	<file src="mods/objects/wall045.col"/>
+	<file src="mods/objects/wall063.col"/>
+	<file src="mods/objects/wall101.col"/>
+
+	<file src="mods/objects/all_walls.txd"/>
+
+
+	<!-- HSU Mod / Adams -->
+	<file src="mods/hsu.txd"/>
+	<file src="mods/hsu.dff"/>
+	
+	<file src="mods/levi.dff"/>
+	<file src="mods/levi.txd"/>
+
+	<file src="mods/vehicles/patriot.txd"/>
+	<file src="mods/vehicles/patriot.dff"/>
+
+	<file src="mods/vehicles/ambulance.txd"/>
+	<file src="mods/vehicles/ambulance.dff"/>
+
+	<file src="mods/vehicles/trailer.dff"/>
+	<file src="mods/vehicles/trailer.txd"/>
+
+	<file src="mods/vehicles/newsvan.txd"/>
+	<file src="mods/vehicles/vcnmav.txd"/>
+	
+	
+	<file src="mods/vehicles/dft30.dff"/>
+	<file src="mods/vehicles/dft30.txd"/>
+
+	<file src="mods/vehicles/streak.dff"/>
+	<file src="mods/vehicles/streak.txd"/>
+	
+	<file src="mods/vehicles/streakc.dff"/>
+	<file src="mods/vehicles/streakc.txd"/>
+	
+
+	<file src="mods/items/cellphone.txd"/>
+	<file src="mods/items/cellphone.dff"/>
+
+	<file src="mods/cols/frame_4.col"/>
+
+	<file src="items/cola.txd"/>
+	<file src="items/cola.dff"/>
+
+	<file src="items/armour.txd"/>
+	<file src="items/armour.dff"/>
+
+	<file src="items/Ciggy1.txd"/>
+	<file src="items/Ciggy1.dff"/>
+	<file src="items/exhale.dff"/>
+</meta>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta author="bekiroj">
+    <title>Athena - Advertisements</title>
+  </head>
+  <body style="background: transparent;">
+    <div class="center">
+      <div class="card" style="min-width: 700px;">
+ 
+        <div class="card-header">
+          <h4>Reklam Verme Arayüzü</h4>
+        </div>
+       
+        <div id="request-panel">
+          <div class="card-body">
+            <div class="empty-state" style="height: 260px; max-width: 600px;">
+              <img class="img-fluid" src="img/logo.png" alt="image" width="150" style="margin-top: -20px;">
+                    <div class="form-group">
+                      <label id="appo-label">Türkiye Radyo Ve Televizyon Kurumu<br>Reklam Arayüzü</label>
+                      <div class="form-group">
+                        <b>REKLAM KURALLARI</b>
+                      </div>
+                  <div class="alert alert-primary">
+                      Reklam atarken <b>yazım - imla </b>kurallarına dikkat edilmelidir.
+                 </div>
+                <div class="alert alert-info">
+                  İlan & iş arama reklamları <b>kesinlikle </b>yasaktır.
+                </div>              
+            </div>
+            </div>
+          </div>
+          <div class="card-footer bg-whitesmoke" id="solutionaction">
+              <a href="#" class="btn btn-icon btn-dark float-right" onclick="switchPanel('next-panel');">İlerle</a>
+              <button class="btn btn-danger btn-icon icon-left" onclick="mta.triggerEvent('adverts.close');">Çıkış Yap</button>
+          </div>
+        </div>
+        <div id="next-panel">
+          <div class="card-body" style="padding: 0;">
+            <div class="empty-state" style="height: 300px; max-width: 700px;">
+              <div class="form-group">
+                <label id="appo-label">Aşağıdaki kutucuğa reklam içeriğini yazınız.</label>
+                <div class="form-group">
+                  <label><b>(Örn: Volkswagen Golf markalı aracım satılıktır. Fiyat için arayabilirsiniz.)</b></label>
+                  <input type="text" class="form-control" id="advertstext">
+                </div>
+                <div class="alert alert-primary">
+                  Reklam kurallarına uymadığım taktirde <b>OOC cezaya</b> çarptırılacağımı onaylıyorum.
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div class="card-footer bg-whitesmoke" id="solutionaction">
+            <a href="#" class="btn btn-icon btn-dark float-left" onclick="switchPanel('request-panel');">Geri Dön</a>
+            <button class="btn btn-primary float-right" onclick="mta.triggerEvent('adverts.send', document.getElementById('advertstext').value);">Gönder</button>
+		<br></br>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const tabs = ["request-panel", "next-panel"];
+      var checkTimer = null;
+      function setIcon(icon) {
+        document.getElementById("err_img").src = `img/${icon}.svg`;
+      }
+
+      function switchPanel(id) {
+        tabs.forEach(
+          function(row) {
+            document.getElementById(row).style.display = "none";
+          }
+        );
+        document.getElementById(id).style.display = "block";
+        if (!checkTimer)
+          checkTimer = setInterval(function() {mta.triggerEvent('marriage.updateText');}, 500);
+      }
+      function destroyPanel() {
+        tabs.forEach(
+          function(row) {
+            document.getElementById(row).style.display = "none";
+          }
+        );
+        if (checkTimer)
+          clearInterval(checkTimer);
+          checkTimer = null;
+      }
+      function maxLengthCheck(object) {
+        if (object.value.length > object.maxLength)
+          object.value = object.value.slice(0, object.maxLength)
+
+        if (object.value > 21)
+          object.value = 21;
+
+        if (object.value != "")
+          if (object.value < 1)
+            object.value = 1;
+      }
+      
+
+      destroyPanel();
+      switchPanel("request-panel");
+      
+    </script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/mtaevents.js"></script>
+  </body>
+</html>

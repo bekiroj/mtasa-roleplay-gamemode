@@ -1,0 +1,9 @@
+<meta>
+	<script src="sourceC.lua" type="client" cache="false" />
+	<script src="sourceS.lua" type="server" />
+	<script src="server.lua" type="server" />
+	<file src="dosyalar/spray.fx" />
+	<file src="dosyalar/sesler/acilis.mp3" />
+	<file src="dosyalar/sesler/kapanis.mp3" />
+	<file src="dosyalar/fontlar/icon.ttf" />
+</meta>

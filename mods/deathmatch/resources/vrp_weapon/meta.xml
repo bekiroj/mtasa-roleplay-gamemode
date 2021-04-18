@@ -1,0 +1,29 @@
+<meta>
+    <script src="client.lua" type="client" cache="false" />
+    <script src="c_models.lua" type="client" cache="false" />
+    <script src="S_stats.lua" type="server" />
+    <script src="c_fd_extinguisher.lua" type="client" cache="false" />
+    <script src="s_fd_extinguisher.lua" type="server" />
+
+	<file src="sounds/explosion/explosion1.wav" />
+	<file src="sounds/explosion/explosion2.wav" />
+	<file src="sounds/reload/mg_clipin.wav" />
+	<file src="sounds/reload/mg_reload.wav" />
+	<file src="sounds/reload/pistol_reload.wav" />
+	<file src="sounds/reload/shotgun_reload.wav" />
+	<file src="sounds/reload/shotgun_shell.wav" />
+	<file src="sounds/weapon/ak.wav" />
+	<file src="sounds/weapon/deagle.wav" />
+	<file src="sounds/weapon/m4.wav" />
+	<file src="sounds/weapon/mp5.wav" />
+	<file src="sounds/weapon/pistole.wav" />
+	<file src="sounds/weapon/shotgun.wav" />
+	<file src="sounds/weapon/sniper.mp3" />
+	<file src="sounds/weapon/tec-9.wav" />
+	<file src="sounds/weapon/uzi.wav" />
+
+	<file src="models/Katana.txd" />
+	<file src="models/Katana.dff" />
+
+    <min_mta_version client="1.3.0-9.04134"></min_mta_version>
+</meta>

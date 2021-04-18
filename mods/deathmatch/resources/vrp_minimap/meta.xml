@@ -1,0 +1,118 @@
+<meta>
+	<info name="Projecte - Minimap" author="foreiger26" version="1.0.0" type="script"/>
+	<oop>true</oop>
+
+	<!-- 
+		@classlib.lua
+		@async.lua
+		@author:sbx320
+	-->
+	<script src="packages/classlib.lua" type="shared"/>
+	<script src="packages/async.lua" type="shared"/>
+
+	<!-- 
+		@extend.lua
+		@create.lua
+		@author:foreigner26
+	-->
+	<script src="extend.lua" type="client" cache="false"/>
+	<script src="create.lua" type="client" cache="false"/>
+	<script src="blip.lua" type="client" cache="false"/>
+
+	<!-- 
+		@components minimap_instance
+		@desc: components for create a minimap
+	-->
+	<file src="hud_mask.fx" type="client" />
+	<file src="components/include/tex_matrix.fx" type="client"/>
+
+		<file src="components/radar.jpg"/>
+		<file src="components/mask.png"/>
+		<file src="components/arrow.png"/>
+
+		<file src="components/font.ttf"/>
+
+		<file src="components/blips/0.png" />
+    	<file src="components/blips/0-up.png" />
+    	<file src="components/blips/1.png" />
+    	<file src="components/blips/3.png" />
+    	<file src="components/blips/4.png" />
+    	<file src="components/blips/5.png" />
+    	<file src="components/blips/6.png" />
+    	<file src="components/blips/7.png" />
+    	<file src="components/blips/8.png" />
+    	<file src="components/blips/9.png" />
+    	<file src="components/blips/10.png" />
+    	<file src="components/blips/11.png" />
+    	<file src="components/blips/12.png" />
+    	<file src="components/blips/13.png" />
+    	<file src="components/blips/14.png" />
+    	<file src="components/blips/15.png" />
+    	<file src="components/blips/16.png" />
+    	<file src="components/blips/17.png" />
+    	<file src="components/blips/18.png" />
+    	<file src="components/blips/19.png" />
+    	<file src="components/blips/20.png" />
+    	<file src="components/blips/21.png" />
+    	<file src="components/blips/22.png" />
+    	<file src="components/blips/23.png" />
+    	<file src="components/blips/24.png" />
+    	<file src="components/blips/25.png" />
+    	<file src="components/blips/26.png" />
+    	<file src="components/blips/27.png" />
+    	<file src="components/blips/28.png" />
+    	<file src="components/blips/29.png" />
+    	<file src="components/blips/30.png" />
+    	<file src="components/blips/31.png" />
+    	<file src="components/blips/32.png" />
+    	<file src="components/blips/33.png" />
+    	<file src="components/blips/34.png" />
+    	<file src="components/blips/35.png" />
+    	<file src="components/blips/36.png" />
+    	<file src="components/blips/37.png" />
+    	<file src="components/blips/38.png" />
+    	<file src="components/blips/39.png" />
+    	<file src="components/blips/40.png" />
+    	<file src="components/blips/41.png" />
+    	<file src="components/blips/42.png" />
+    	<file src="components/blips/43.png" />
+    	<file src="components/blips/44.png" />
+    	<file src="components/blips/45.png" />
+    	<file src="components/blips/46.png" />
+    	<file src="components/blips/47.png" />
+    	<file src="components/blips/48.png" />
+    	<file src="components/blips/49.png" />
+    	<file src="components/blips/50.png" />
+    	<file src="components/blips/51.png" />
+    	<file src="components/blips/52.png" />
+    	<file src="components/blips/53.png" />
+    	<file src="components/blips/54.png" />
+    	<file src="components/blips/55.png" />
+    	<file src="components/blips/56.png" />
+    	<file src="components/blips/57.png" />
+    	<file src="components/blips/58.png" />
+    	<file src="components/blips/59.png" />
+    	<file src="components/blips/60.png" />
+    	<file src="components/blips/61.png" />
+    	<file src="components/blips/63.png" />
+    	<file src="components/blips/64.png" />
+    	<file src="components/blips/80.png" />
+    	<file src="components/blips/81.png" />
+    	<file src="components/blips/70.png" />
+    	<file src="components/blips/132.png" />
+    	<file src="components/blips/150.png" />
+    	<file src="components/blips/160.png" />
+    	<file src="components/blips/170.png" />
+    	<file src="components/blips/200.png" />
+    	<file src="components/blips/201.png" />
+    	<file src="components/blips/202.png" />
+    	<file src="components/blips/232.png" />
+    	<file src="components/blips/1000.png" />
+    	<file src="components/blips/900.png" />
+    	<file src="components/blips/pickup1.png" />
+    	<file src="components/blips/pickup0.png" />
+    	<file src="components/blips/ped.png" />
+    	<file src="components/blips/pedvehicle.png" />
+    	<file src="components/blips/vehicle.png" />
+    	<file src="components/blips/pickup2.png" />
+</meta>

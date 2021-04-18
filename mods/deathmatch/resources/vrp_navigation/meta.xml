@@ -1,0 +1,10 @@
+<meta>
+    <script src="vehicle_ways.lua" type="shared" cache="false" />
+    <script src="client.lua" type="client" cache="false" />
+    
+	<script src="navigasyon/client.lua" type="client" cache="false" />  
+
+    <export function="findBestWay" type="client" />
+   
+    <oop>true</oop>
+</meta>

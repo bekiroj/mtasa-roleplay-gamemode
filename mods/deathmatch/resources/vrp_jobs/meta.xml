@@ -1,0 +1,43 @@
+<meta>
+	<oop>true</oop>
+	<script src="jobs_g.lua" type="shared"/>
+
+	<script src="jobs_s.lua" type="server" />
+	<script src="jobs_c.lua" type="client" />
+	
+	<script src="s_job_framework.lua" type="server"/>
+	<script src="c_job_framework.lua" type="client" cache="false"/>
+	
+	
+	<script src="alkol/s_alcohol.lua" type="server"/>
+	<script src="alkol/c_alcohol.lua" type="client"/>
+
+	<script src="kamyon/s_kamyon.lua" type="server"/>
+	<script src="kamyon/c_kamyon.lua" type="client"/>
+	
+	<script src="cigaratte/s_cigar.lua" type="server"/>
+	<script src="cigaratte/c_cigar.lua" type="client" cache="false"/>
+	
+
+	<map src="fishing/balik-system-map/balik-system-map.map" dimension="0"></map>
+    <script src="fishing/balik-system-map/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="fishing/balik-system-map/mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+
+    <script src="fishing/client.lua" type="client" cache="false"/>
+    <script src="fishing/server.lua" type="server"/>
+
+	<script src="taximeter/g_taximeter.lua" type="server"/>
+	<script src="taximeter/g_taximeter.lua" type="client" cache="false"/>
+	<script src="taximeter/s_taximeter.lua" type="server"/>
+	<script src="taximeter/c_taximeter.lua" type="client" cache="false"/>	
+	<file src="taximeter/images/base_driver.png" />
+	<file src="taximeter/images/base_pax.png" />
+	<file src="taximeter/images/btn.png" />
+	<file src="taximeter/images/btn_on.png" />
+	<file src="taximeter/images/btn_active.png" />
+
+	<export function="fetchJobInfoForOnePlayer" type="server"/>
+	
+	<export function="getJobTitleFromID" type="server"/>
+	<export function="getJobTitleFromID" type="client" />
+</meta>

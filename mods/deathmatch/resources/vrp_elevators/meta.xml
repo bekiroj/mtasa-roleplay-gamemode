@@ -1,0 +1,22 @@
+<meta>
+	
+	<!-- @bekiroj elevator system -->
+	
+	<script src="thread.lua" type="server" />
+	<script src="server.lua" type="server" />
+	<script src="client.lua" type="client" cache="false" />
+
+	<!--<script src="lift/server.lua" type="server" />
+	<script src="lift/client.lua" type="client" cache="false" />
+-->
+	<export function="findElevator" type="server"/>
+	<export function="reloadOneElevator" type="server"/>
+	<export function="loadOneElevator" type="server"/>
+	<export function="delElevatorsFromInterior" type="server"/>
+	<export function="findLift" type="server"/>
+	<export function="reloadOneLift" type="server"/>
+	<export function="loadOneLift" type="server"/>
+	
+	<oop>true</oop>
+	<min_mta_version client="1.5.5-9.14060" server="1.5.5-9.14060" />
+</meta>

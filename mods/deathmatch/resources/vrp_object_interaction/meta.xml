@@ -1,0 +1,7 @@
+<meta>
+
+	<script src="c_objects.lua" type="client"/>
+	
+	<script src="c_objects_rightclick.lua" type="client" cache="false"/>
+	<export function="clickObject" type="client"/>
+</meta>

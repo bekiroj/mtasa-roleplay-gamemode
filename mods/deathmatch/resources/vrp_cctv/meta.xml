@@ -1,0 +1,16 @@
+<meta>
+	<!--
+        	@bekiroj Owl CCTV
+		Not The Full Version
+    	-->
+	
+	<script src="events.lua" type="client" cache="false"/>
+	<script src="command.lua" type="server"/>
+	<script src="main.lua" type="client"/>
+
+	<file src="components/fonts/Roboto.ttf" />
+    	<file src="components/img/next.png" />
+    	<file src="components/img/back.png" />
+	<file src="components/img/nexthover.png" />
+    	<file src="components/img/backhover.png" />
+</meta>

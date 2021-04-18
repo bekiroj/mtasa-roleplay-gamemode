@@ -1,0 +1,5 @@
+<meta>
+	<oop>true</oop>
+	<script src="s_informationicons.lua" type="server"/>
+	<script src="c_informationicons.lua" type="client"/>
+</meta>

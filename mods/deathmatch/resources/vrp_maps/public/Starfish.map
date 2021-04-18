@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main">
+    <object id="object (DYN_TABLE_2) (1)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="366.89999" posY="-2075.6001" posZ="6.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (2)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="371.89999" posY="-2075.3999" posZ="6.8" rotX="0" rotY="0" rotZ="70"></object>
+    <object id="object (DYN_TABLE_2) (3)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="369.60001" posY="-2080.2" posZ="6.8" rotX="0" rotY="0" rotZ="300"></object>
+    <object id="object (DYN_TABLE_2) (4)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="376.39999" posY="-2080.6001" posZ="6.8" rotX="0" rotY="0" rotZ="229.998"></object>
+    <object id="object (DYN_TABLE_2) (5)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="378.79999" posY="-2075.3" posZ="6.8" rotX="0" rotY="0" rotZ="229.993"></object>
+    <object id="object (DYN_TABLE_2) (6)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="384.70001" posY="-2078.5" posZ="6.8" rotX="0" rotY="0" rotZ="229.993"></object>
+    <object id="object (DYN_TABLE_2) (7)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="390.60001" posY="-2075.5" posZ="6.8" rotX="0" rotY="0" rotZ="279.993"></object>
+    <object id="object (DYN_TABLE_2) (8)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="394.10001" posY="-2080.8999" posZ="6.8" rotX="0" rotY="0" rotZ="289.993"></object>
+    <object id="object (CJ_CANDYVENDOR) (1)" breakable="false" interior="0" alpha="255" model="1776" doublesided="true" scale="1" dimension="0" posX="374.60001" posY="-2071.3999" posZ="7.9" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_SPRUNK1) (1)" breakable="false" interior="0" alpha="255" model="1775" doublesided="true" scale="1" dimension="0" posX="374.60001" posY="-2069.6001" posZ="7.9" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (ufo_bar) (1)" breakable="true" interior="0" alpha="255" model="16151" doublesided="true" scale="1" dimension="0" posX="393.39999" posY="-2053.5" posZ="7.2" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (9)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="387.10001" posY="-2050.7" posZ="6.8" rotX="0" rotY="0" rotZ="319.992"></object>
+    <object id="object (DYN_TABLE_2) (10)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="387" posY="-2054.7" posZ="6.8" rotX="0" rotY="0" rotZ="259.988"></object>
+    <object id="object (DYN_TABLE_2) (11)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="387.79999" posY="-2065.6001" posZ="6.8" rotX="0" rotY="0" rotZ="173.986"></object>
+    <object id="object (DYN_TABLE_2) (12)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="387.2002" posY="-2058.7002" posZ="6.8" rotX="0" rotY="0" rotZ="333.984"></object>
+    <object id="object (DYN_TABLE_2) (13)" breakable="true" interior="0" alpha="255" model="1432" doublesided="true" scale="1" dimension="0" posX="391.2998" posY="-2061.2002" posZ="6.8" rotX="0" rotY="0" rotZ="263.985"></object>
+</map>

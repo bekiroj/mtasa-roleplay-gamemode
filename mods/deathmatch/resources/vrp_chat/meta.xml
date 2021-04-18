@@ -1,0 +1,15 @@
+<meta>
+	<script src="sourceS.lua" type="server"/>
+	<script src="sourceC.lua" type="client"/>
+	<script src="icon.lua" type="client"/>
+	<script src="status/s_status.lua" type="server"/>
+	<script src="status/c_status.lua" type="client" cache="false"/>	
+	<script src="status/s_ame.lua" type="server"/>
+	<script src="status/c_Ame.lua" type="client" cache="false"/>	
+	<export function="trunklateText" type="server"/>
+	<export function="localIC" type="server"/>
+	<export function="districtIC" type="server"/>
+	<export function="localShout" type="server"/>
+	<export function="departmentradio" type="server"/>
+	<file src="components/pmSoundFX.mp3" />
+</meta>

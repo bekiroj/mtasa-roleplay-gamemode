@@ -1,0 +1,30 @@
+<meta>
+	<oop>true</oop>
+	<file src="html/style.css" />
+	<file src="html/all.css" />
+	<file src="html/index.html" />
+	<file src="html/js/jquery.js" />
+	<file src="html/js/mtaevents.js" />
+	<file src="html/js/project.js" />
+	<file src="html/media/font/Bariol_Regular.otf" />
+	<file src="html/media/font/Vision-Black.otf" />
+	<file src="html/media/font/Vision-Bold.otf" />
+	<file src="html/media/font/Vision-Heavy.otf" />
+	<file src="html/media/img/bg.png" />
+	<file src="html/media/img/circle.png" />
+	<file src="html/media/img/curve.png" />
+	<file src="html/media/img/fingerprint.jpg" />
+	<file src="html/media/img/fingerprint.png" />
+	<file src="html/media/img/graph.png" />
+	<file src="html/media/img/logo-big.png" />
+	<file src="html/media/img/logo-top.png" />
+	<script src="server.lua" type="server" />
+		<export function="updateBankMoney" type="server" />
+		<export function="hasBankMoney" type="server" />
+		<export function="takeBankMoney" type="server" />
+		<export function="giveBankMoney" type="server" />
+		<export function="setBankMoney" type="server" />
+		<export function="addBankTransactionLog" type="server" />
+	<script src="client.lua" type="client" cache="false"/>
+	<script src="packages/classlib.lua" type="shared" cache="false" />
+</meta>

@@ -1,0 +1,6 @@
+<meta>
+	<script src="taxes_g.lua" type="client" cache="false"/>	
+	<script src="taxes_g.lua" type="server" />	
+	<export function="getPropertyTaxRate" type="server"/>
+	<export function="getPropertyTaxRate" type="client"/>
+</meta>

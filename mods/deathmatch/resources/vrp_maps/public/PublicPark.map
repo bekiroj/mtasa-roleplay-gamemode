@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (paypark_lan04) (1)" breakable="true" interior="0" alpha="255" model="4641" doublesided="false" scale="1" dimension="0" posX="1645.6" posY="-1719.08" posZ="16.3" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (bar_gatebar01) (1)" breakable="true" interior="0" alpha="255" model="966" doublesided="false" scale="1" dimension="0" posX="1643.3" posY="-1718.3" posZ="14.6" rotX="0" rotY="0" rotZ="270"></object>
+    <object id="object (barrierturn) (1)" breakable="true" interior="0" alpha="255" model="968" doublesided="false" scale="1" dimension="0" posX="1643.3" posY="-1718.3" posZ="15.5" rotX="0" rotY="90" rotZ="90"></object>
+</map>

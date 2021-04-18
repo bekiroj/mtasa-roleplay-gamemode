@@ -1,0 +1,21 @@
+<meta>
+	<info name="projecte - shadow" author="foreiger26" version="rc0.9" type="script"/>
+	<oop>true</oop>
+
+	<!-- 
+		@classlib.lua
+		@author:sbx320
+	-->
+	<script src="packages/classlib.lua" type="shared"/>
+
+	<!-- 
+		@functions.lua
+		@desc: veritabanı sınıfı
+	-->
+	<script src="functions.lua" type="client"/>
+
+		<!-- @functions -->
+		<export function="shadow" type="client"/>
+		<export function="gradient" type="client"/>
+
+</meta>

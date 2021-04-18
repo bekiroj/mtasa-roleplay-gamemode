@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <object id="object (drvin_ticket) (1)" breakable="true" interior="0" alpha="255" model="16003" doublesided="false" scale="1" dimension="0" posX="395.60001" posY="-2078.3999" posZ="8.3" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vicjump_sfe) (1)" breakable="true" interior="0" alpha="255" model="10244" doublesided="false" scale="1" dimension="0" posX="399.29999" posY="-2067.1001" posZ="10.2" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (carter-stairs01) (1)" breakable="true" interior="0" alpha="255" model="14407" doublesided="false" scale="1" dimension="0" posX="396.5" posY="-2057.7" posZ="10.4" rotX="0" rotY="0" rotZ="0"></object>
+</map>

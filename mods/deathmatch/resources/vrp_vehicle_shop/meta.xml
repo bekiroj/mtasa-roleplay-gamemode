@@ -1,0 +1,17 @@
+<meta>
+	<oop>true</oop>
+	<script src="packages/thread.lua" type="shared" />
+	<export function="getVehiclePrice" type="server" http="true" />
+	<export function="getPriceFromModel" type="server" http="true" />
+	
+	<script src="server/server.lua" type="server" />
+
+	<script src="shared/global.lua" type="server" />
+	<script src="shared/global.lua" type="client" cache="false" />
+
+	<script src="client/client.lua" type="client" cache="false"/>
+	
+	<export function="isForSale" type="server" http="true" />
+	<export function="getCarShops" type="client" />
+	<export function="getCarShops" type="server" />
+</meta>

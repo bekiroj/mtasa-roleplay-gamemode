@@ -1,0 +1,33 @@
+<meta>
+	<oop>true</oop>
+	
+	<script src="packages/async.lua" type="shared" />
+
+	<script src="server/s_faction_system.lua" type="server" />
+	<script src="server/s_faction_admin.lua" type="server" />
+	<script src="server/s_create.lua" type="server" />
+	<script src="server/s_duty.lua" type="server"/>
+
+
+	<script src="client/c_faction_system.lua" type="client" cache="false" />
+	<script src="client/c_faction_admin.lua" type="client" cache="false" />
+	<script src="client/c_create.lua" type="client" cache="false" />
+	<script src="client/c_duty.lua" type="client"/>
+
+	<script src="shared/global.lua" type="shared" />
+	<script src="shared/shared.lua" type="server"/>
+	<script src="shared/shared.lua" type="client"/>
+
+	<export function="isPlayerInFaction" type="shared"/>
+	<export function="getPlayerFactionRank" type="shared"/>
+	<export function="isPlayerFactionLeader" type="shared"/>
+	<export function="getTeamFromFactionID" type="server"/>
+	<export function="getTeamFromFactionID" type="client"/>
+	<export function="getFactionName" type="server"/>
+	<export function="getFactionType" type="server"/>
+	<export function="getFactionFromName" type="server"/>
+	<export function="getFactionIDFromName" type="server"/>
+	<export function="createDutyColShape" type="shared" />
+	<export function="destroyDutyColShape" type="shared"/>
+	<export function="getFactionPackages" type="client"/>
+</meta>
